@@ -1,0 +1,89 @@
+name: Auto-Sync Intervals.icu Data
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install requests
+      - name: Verify sync.py exists
+        run: |
+          if [ ! -f sync.py ]; then
+            echo "ERROR: sync.py not found"
+            ls -la
+            exit 1
+          fi
+          echo "sync.py found"
+      - name: Verify secrets are set
+        run: |
+          if [ -z "${{ secrets.ATHLETE_ID }}" ]; then
+            echo "ERROR: ATHLETE_ID secret not set"
+            exit 1
+          fi
+          if [ -z "${{ secrets.INTERVALS_KEY }}" ]; then
+            echo "ERROR: INTERVALS_KEY secret not set"
+            exit 1
+          fi
+          echo "All secrets configured"
+      - name: Run sync
+        env:
+          ATHLETE_ID: ${{ secrets.ATHLETE_ID }}
+          INTERVALS_KEY: ${{ secrets.INTERVALS_KEY }}
+          GITHUB_REPO: ${{ github.repository }}
+          WEEK_START: ${{ secrets.WEEK_START }}
+          ZONE_PREFERENCE: ${{ secrets.ZONE_PREFERENCE }}
+        run: |
+          python sync.py \
+            --athlete-id "$ATHLETE_ID" \
+            --intervals-key "$INTERVALS_KEY" \
+            --days 7 \
+            --output latest.json
+      - name: Verify latest.json
+        run: |
+          if [ -f latest.json ]; then
+            echo "latest.json exists"
+          else
+            echo "latest.json not found"
+            exit 1
+          fi
+      - name: Commit data files
+        if: success()
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          for f in latest.json history.json intervals.json routes.json ftp_history.json; do
+            if [ -f "$f" ]; then git add "$f"; fi
+          done
+          git pull --rebase --autostash origin main
+          if ! git diff --staged --quiet; then
+            git commit -m "Update training data $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+            echo "Data committed and pushed"
+          else
+            echo "No changes to commit"
+          fi
+      - name: Upload data files
+        if: github.event_name == 'workflow_dispatch'
+        uses: actions/upload-artifact@v4
+        with:
+          name: training-data
+          path: |
+            latest.json
+            history.json
+            intervals.json
+            routes.json
+            ftp_history.json
+          retention-days: 7
+          if-no-files-found: ignore
