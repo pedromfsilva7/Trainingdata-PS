@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T23:52:18.966755",
+  "generated_at": "2026-07-09T03:26:20.906706",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -297,24 +297,6 @@
           "avg_cadence": 66.55467,
           "zone": 1,
           "training_load": 6.4448
-        }
-      ]
-    },
-    {
-      "activity_id": "i161422660",
-      "date": "2026-06-24",
-      "type": "Ride",
-      "name": "Volta de bicicleta matinal",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 9808,
-          "avg_power": 186,
-          "max_power": 614,
-          "avg_cadence": 78.64343,
-          "zone": 1,
-          "training_load": 49.1011
         }
       ]
     },
