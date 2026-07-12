@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-12T18:39:47.818693",
+    "last_updated": "2026-07-12T19:51:28.740729",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -634,9 +634,9 @@
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 2,
           "race_proximity": 0,
-          "next_week_load": 2.06,
+          "next_week_load": 1.8,
           "plan_coverage_current_week": 0.17,
-          "plan_coverage_next_week": 1.33
+          "plan_coverage_next_week": 1.17
         },
         "data_quality": "good",
         "stream_agreement": false
@@ -671,7 +671,7 @@
     "p_max": 1220,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-12T18:39:47.817573",
+    "calculation_timestamp": "2026-07-12T19:51:28.739654",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
@@ -7914,7 +7914,7 @@
       "description": ""
     },
     {
-      "id": 122341621,
+      "id": 122342740,
       "date": "2026-07-13",
       "name": "IntervalCoach - Aerobic Build",
       "type": "WORKOUT",
@@ -7925,10 +7925,10 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey Pedromfsilva7! Endurance ride awaits 15m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 31m 65% 85rpm\n- Build 31m 67% 88rpm\n- Upper 31m 70-74% 90rpm\n- Cruise 32m 74-70% 88rpm\n\nCooldown\n- Excellent work, Pedromfsilva7! Recover well 10m ramp 65-45%"
+      "description": "Warmup\n- Hey Pedromfsilva7! Endurance ride awaits 15m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 31m 65% 85rpm\n- Build 31m 67% 88rpm\n- Upper 31m 70-74% 90rpm\n- Cruise 32m 74-70% 88rpm\n\nCooldown\n- Fantastic ride, recover well 10m ramp 65-45%"
     },
     {
-      "id": 122341620,
+      "id": 122342735,
       "date": "2026-07-14",
       "name": "IntervalCoach - Tempo",
       "type": "WORKOUT",
@@ -7939,10 +7939,10 @@
       "workout_summary": "12m @240W | 1m @324W | 30s @220W | 1m @324W | 30s @220W | 42m @280W | 3\u00d720m @316W / 5m rec | 10m @220W",
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey Pedromfsilva7! Long tempo ride ahead. 12m ramp 45-75% 85rpm\n- Primer 1 1m 81% 90rpm\n- Primer recovery 30s 55%\n- Primer 2 1m 81% 90rpm\n- Primer recovery 30s 55%\n\nMain Set\n- Endurance 42m 65-75% 85rpm\n- Tempo 1 20m 76-82% 90rpm\n- Recovery 5m 55%\n- Tempo 2 20m 76-82% 90rpm\n- Recovery 5m 55%\n- Tempo 3 20m 76-82% 90rpm\n- Endurance 43m 65-75% 85rpm\n\nCooldown\n- Fantastic work, recover well! 10m ramp 65-45%"
+      "description": "Warmup\n- Hey Pedromfsilva7! Time for a solid tempo ride 12m ramp 45-75% 85rpm\n- Primer 1 1m 81% 90rpm\n- Primer recovery 30s 55%\n- Primer 2 1m 81% 90rpm\n- Primer recovery 30s 55%\n\nMain Set\n- Endurance 42m 65-75% 85rpm\n- Tempo 1 20m 76-82% 90rpm\n- Recovery 5m 55%\n- Tempo 2 20m 76-82% 90rpm\n- Recovery 5m 55%\n- Tempo 3 20m 76-82% 90rpm\n- Endurance 43m 65-75% 85rpm\n\nCooldown\n- Crushed it, Pedromfsilva7! Enjoy your recovery 10m ramp 65-45%"
     },
     {
-      "id": 122341080,
+      "id": 122342736,
       "date": "2026-07-15",
       "name": "IntervalCoach - Threshold Repeats",
       "type": "WORKOUT",
@@ -7953,10 +7953,10 @@
       "workout_summary": "12m @240W | 1m @400W | 30s @220W | 1m @400W | 30s @220W | 8\u00d78m @280W / 30s rec | 1m @280W | 13m @390W | 8m @220W | 13m @390W | 8m @220W | 13m @390W | 8\u00d78m @280W / 30s rec | 1m @280W | 10m @220W",
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey Pedromfsilva7! Threshold work awaits, let's go! 12m ramp 45-75% 85rpm\n- Primer 1 1m 100% 90rpm\n- Primer recovery 30s 55%\n- Primer 2 1m 100% 90rpm\n- Primer recovery 30s 55%\n\nMain Set\n8x\n- Endurance 8m 65-75% 85rpm\n- Pickup 30s 86-94% 95rpm\n\nRecovery\n- Endurance 1m 65-75% 85rpm\n- Threshold 1 13m 95-100% 92rpm\n- Recovery 8m 55%\n- Threshold 2 13m 95-100% 92rpm\n- Recovery 8m 55%\n- Threshold 3 13m 95-100% 92rpm\n\n8x\n- Endurance 8m 65-75% 85rpm\n- Pickup 30s 86-94% 95rpm\n\nRecovery\n- Endurance 1m 65-75% 85rpm\n\nCooldown\n- Fantastic threshold effort, Pedromfsilva7. Well done! 10m ramp 65-45%"
+      "description": "Warmup\n- Hello Pedromfsilva7! Long threshold ride awaits 12m ramp 45-75% 85rpm\n- Primer 1 1m 100% 90rpm\n- Primer recovery 30s 55%\n- Primer 2 1m 100% 90rpm\n- Primer recovery 30s 55%\n\nMain Set\n8x\n- Endurance 8m 65-75% 85rpm\n- Pickup 30s 86-94% 95rpm\n\nRecovery\n- Endurance 1m 65-75% 85rpm\n- Threshold 1 13m 95-100% 92rpm\n- Recovery 8m 55%\n- Threshold 2 13m 95-100% 92rpm\n- Recovery 8m 55%\n- Threshold 3 13m 95-100% 92rpm\n\n8x\n- Endurance 8m 65-75% 85rpm\n- Pickup 30s 86-94% 95rpm\n\nRecovery\n- Endurance 1m 65-75% 85rpm\n\nCooldown\n- Fantastic job, savor this cool down 10m ramp 65-45%"
     },
     {
-      "id": 122341075,
+      "id": 122342733,
       "date": "2026-07-16",
       "name": "IntervalCoach - VO2max Intervals",
       "type": "WORKOUT",
@@ -7967,12 +7967,12 @@
       "workout_summary": "12m @240W | 1m @452W | 30s @220W | 1m @452W | 30s @220W | 6\u00d78m @280W / 30s rec | 7m @280W | 8\u00d73m @452W / 3m rec | 6\u00d78m @280W / 30s rec | 7m @280W | 10m @220W",
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey Pedromfsilva7, VO2max sprint work! 12m ramp 45-75% 85rpm\n- Primer 1 1m 113% 90rpm\n- Primer recovery 30s 55%\n- Primer 2 1m 113% 90rpm\n- Primer recovery 30s 55%\n\nMain Set\n6x\n- Endurance 8m 65-75% 85rpm\n- Pickup 30s 86-94% 95rpm\n\nRecovery\n- Endurance 7m 65-75% 85rpm\n\n8x\n- VO2max 3m 106-120% 100rpm\n- Recovery 3m 55%\n\n6x\n- Endurance 8m 65-75% 85rpm\n- Pickup 30s 86-94% 95rpm\n\nRecovery\n- Endurance 7m 65-75% 85rpm\n\nCooldown\n- Awesome job, recover well 10m ramp 65-45%"
+      "description": "Warmup\n- Hey Pedromfsilva7! VO2max time! 12m ramp 45-75% 85rpm\n- Primer 1 1m 113% 90rpm\n- Primer recovery 30s 55%\n- Primer 2 1m 113% 90rpm\n- Primer recovery 30s 55%\n\nMain Set\n6x\n- Endurance 8m 65-75% 85rpm\n- Pickup 30s 86-94% 95rpm\n\nRecovery\n- Endurance 7m 65-75% 85rpm\n\n8x\n- VO2max 3m 106-120% 100rpm\n- Recovery 3m 55%\n\n6x\n- Endurance 8m 65-75% 85rpm\n- Pickup 30s 86-94% 95rpm\n\nRecovery\n- Endurance 7m 65-75% 85rpm\n\nCooldown\n- Great job, spin it out 10m ramp 65-45%"
     },
     {
-      "id": 122341084,
+      "id": 122342737,
       "date": "2026-07-17",
-      "name": "IntervalCoach - Aerobic Build",
+      "name": "IntervalCoach - Aerobic Endurance Build",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": 186,
@@ -7981,24 +7981,10 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey Pedromfsilva7! Long endurance ride ahead. 15m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 54m 65% 85rpm\n- Build 54m 67% 88rpm\n- Upper 54m 70-74% 90rpm\n- Cruise 53m 74-70% 88rpm\n\nCooldown\n- Awesome work, take it easy now. 10m ramp 65-45%"
+      "description": "Warmup\n- Hey Pedromfsilva7! Long endurance ride ahead 15m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 54m 65% 85rpm\n- Build 54m 67% 88rpm\n- Upper 54m 70-74% 90rpm\n- Cruise 53m 74-70% 88rpm\n\nCooldown\n- Well done, enjoy your recovery 10m ramp 65-45%"
     },
     {
-      "id": 122341643,
-      "date": "2026-07-17",
-      "name": "IntervalCoach - Endurance Build",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 186,
-      "duration_hours": 4.0,
-      "duration_formatted": "4h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hey Pedromfsilva7! Ready for a long endurance ride? 15m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 54m 65% 85rpm\n- Build 54m 67% 88rpm\n- Upper 54m 70-74% 90rpm\n- Cruise 53m 74-70% 88rpm\n\nCooldown\n- Excellent work, Pedromfsilva7! Enjoy the recovery spin. 10m ramp 65-45%"
-    },
-    {
-      "id": 122341617,
+      "id": 122342739,
       "date": "2026-07-18",
       "name": "IntervalCoach - Tempo",
       "type": "WORKOUT",
@@ -8009,12 +7995,12 @@
       "workout_summary": "12m @240W | 1m @324W | 30s @220W | 1m @324W | 30s @220W | 42m @280W | 3\u00d720m @316W / 5m rec | 10m @220W",
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey Pedromfsilva7! Let's get this tempo ride rolling. 12m ramp 45-75% 85rpm\n- Primer 1 1m 81% 90rpm\n- Primer recovery 30s 55%\n- Primer 2 1m 81% 90rpm\n- Primer recovery 30s 55%\n\nMain Set\n- Endurance 42m 65-75% 85rpm\n- Tempo 1 20m 76-82% 90rpm\n- Recovery 5m 55%\n- Tempo 2 20m 76-82% 90rpm\n- Recovery 5m 55%\n- Tempo 3 20m 76-82% 90rpm\n- Endurance 43m 65-75% 85rpm\n\nCooldown\n- Fantastic work, Pedromfsilva7. Enjoy the spin down. 10m ramp 65-45%"
+      "description": "Warmup\n- Hey Pedromfsilva7! Ready for a long tempo ride? 12m ramp 45-75% 85rpm\n- Primer 1 1m 81% 90rpm\n- Primer recovery 30s 55%\n- Primer 2 1m 81% 90rpm\n- Primer recovery 30s 55%\n\nMain Set\n- Endurance 42m 65-75% 85rpm\n- Tempo 1 20m 76-82% 90rpm\n- Recovery 5m 55%\n- Tempo 2 20m 76-82% 90rpm\n- Recovery 5m 55%\n- Tempo 3 20m 76-82% 90rpm\n- Endurance 43m 65-75% 85rpm\n\nCooldown\n- Awesome work, Pedromfsilva7! Enjoy the cool-down. 10m ramp 65-45%"
     },
     {
-      "id": 122341625,
+      "id": 122342741,
       "date": "2026-07-19",
-      "name": "IntervalCoach - Aerobic Endurance",
+      "name": "IntervalCoach - Aerobic Endurance Build",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": 235,
@@ -8023,7 +8009,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey Pedromfsilva7! Endurance focus today 15m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 69m 65% 85rpm\n- Build 69m 67% 88rpm\n- Upper 69m 70-74% 90rpm\n- Cruise 68m 74-70% 88rpm\n\nCooldown\n- Well done, Pedromfsilva7! Recover well 10m ramp 65-45%"
+      "description": "Warmup\n- Hey Pedromfsilva7! Long endurance ride ahead 15m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 69m 65% 85rpm\n- Build 69m 67% 88rpm\n- Upper 69m 70-74% 90rpm\n- Cruise 68m 74-70% 88rpm\n\nCooldown\n- Awesome job, recover well! 10m ramp 65-45%"
     },
     {
       "id": 122326465,
@@ -8284,12 +8270,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 22,
+    "attempted": 21,
     "success": 12,
     "patternA": 10,
     "patternB": 2,
     "bail_no_workout_doc": 4,
-    "bail_no_match": 10
+    "bail_no_match": 9
   },
   "weekly_summary": {
     "total_training_hours": 7.92,
