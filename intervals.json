@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T23:56:28.612146",
+  "generated_at": "2026-07-12T03:25:33.896806",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -75,92 +75,6 @@
           "avg_cadence": 75.78081,
           "zone": 1,
           "training_load": 7.988089
-        }
-      ]
-    },
-    {
-      "activity_id": "i161422631",
-      "date": "2026-06-27",
-      "type": "Ride",
-      "name": "Volta de bicicleta \u00e0 hora do almo\u00e7o",
-      "interval_summary": [
-        "1x 49m9s 185w",
-        "2x 60s 426w",
-        "1x 2m58s 225w",
-        "1x 1h24m 202w",
-        "1x 2m1s 411w",
-        "1x 33m18s 211w"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "2949s@185w76rpm",
-          "duration_secs": 2949,
-          "avg_power": 185,
-          "max_power": 539,
-          "avg_cadence": 76.0426,
-          "zone": 1,
-          "training_load": 20.467777
-        },
-        {
-          "type": "WORK",
-          "label": "60s@426w108rpm",
-          "duration_secs": 60,
-          "avg_power": 434,
-          "max_power": 490,
-          "avg_cadence": 107.53333,
-          "zone": 5,
-          "training_load": 1.7510417
-        },
-        {
-          "type": "WORK",
-          "label": "178s@225w89rpm",
-          "duration_secs": 178,
-          "avg_power": 225,
-          "max_power": 415,
-          "avg_cadence": 88.7809,
-          "zone": 2,
-          "training_load": 1.9314237
-        },
-        {
-          "type": "WORK",
-          "label": "60s@426w108rpm",
-          "duration_secs": 59,
-          "avg_power": 418,
-          "max_power": 493,
-          "avg_cadence": 108.79661,
-          "zone": 4,
-          "training_load": 1.7556187
-        },
-        {
-          "type": "WORK",
-          "label": "5061s@202w81rpm",
-          "duration_secs": 5061,
-          "avg_power": 202,
-          "max_power": 442,
-          "avg_cadence": 80.8102,
-          "zone": 1,
-          "training_load": 25.64552
-        },
-        {
-          "type": "WORK",
-          "label": "121s@411w109rpm",
-          "duration_secs": 121,
-          "avg_power": 411,
-          "max_power": 485,
-          "avg_cadence": 108.75207,
-          "zone": 4,
-          "training_load": 3.5312674
-        },
-        {
-          "type": "WORK",
-          "label": "1998s@211w79rpm",
-          "duration_secs": 1998,
-          "avg_power": 211,
-          "max_power": 589,
-          "avg_cadence": 78.93186,
-          "zone": 1,
-          "training_load": 18.993488
         }
       ]
     },
