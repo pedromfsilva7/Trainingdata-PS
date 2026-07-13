@@ -1,83 +1,10 @@
 {
-  "generated_at": "2026-07-12T23:56:16.726539",
+  "generated_at": "2026-07-13T03:27:14.243907",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i161422626",
-      "date": "2026-06-28",
-      "type": "Ride",
-      "name": "Volta de bicicleta \u00e0 hora do almo\u00e7o",
-      "interval_summary": [
-        "1x 2h14m 294w",
-        "1x 1h20m 292w",
-        "1x 15m43s 266w",
-        "1x 5m2s 232w",
-        "1x 15m17s 192w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 45,
-          "avg_power": 127,
-          "max_power": 127,
-          "avg_cadence": 94.0,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "8083s@294w84rpm",
-          "duration_secs": 8083,
-          "avg_power": 294,
-          "max_power": 1014,
-          "avg_cadence": 84.41023,
-          "zone": 2,
-          "training_load": 171.90408
-        },
-        {
-          "type": "WORK",
-          "label": "4827s@292w88rpm",
-          "duration_secs": 4827,
-          "avg_power": 292,
-          "max_power": 861,
-          "avg_cadence": 87.756195,
-          "zone": 2,
-          "training_load": 89.0615
-        },
-        {
-          "type": "WORK",
-          "label": "943s@266w86rpm",
-          "duration_secs": 943,
-          "avg_power": 266,
-          "max_power": 592,
-          "avg_cadence": 86.13482,
-          "zone": 2,
-          "training_load": 13.391254
-        },
-        {
-          "type": "WORK",
-          "label": "302s@232w90rpm",
-          "duration_secs": 302,
-          "avg_power": 232,
-          "max_power": 384,
-          "avg_cadence": 89.65781,
-          "zone": 2,
-          "training_load": 3.147144
-        },
-        {
-          "type": "WORK",
-          "label": "917s@192w76rpm",
-          "duration_secs": 917,
-          "avg_power": 192,
-          "max_power": 462,
-          "avg_cadence": 75.78081,
-          "zone": 1,
-          "training_load": 7.988089
-        }
-      ]
-    },
     {
       "activity_id": "i162190141",
       "date": "2026-07-02",
