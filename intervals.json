@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T23:40:57.654541",
+  "generated_at": "2026-07-21T01:10:40.359901",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -408,69 +408,6 @@
           "avg_cadence": 60.316845,
           "zone": 1,
           "training_load": 16.101995
-        }
-      ]
-    },
-    {
-      "activity_id": "i164233037",
-      "date": "2026-07-06",
-      "type": "Ride",
-      "name": "Afternoon Ciclismo",
-      "interval_summary": [
-        "1x 1h 206w",
-        "1x 31m 219w",
-        "1x 2m48s 58w"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "3643s@206w84rpm",
-          "duration_secs": 3643,
-          "avg_power": 206,
-          "max_power": 440,
-          "avg_hr": 127,
-          "max_hr": 144,
-          "avg_cadence": 83.7643,
-          "zone": 1,
-          "training_load": 30.34243,
-          "decoupling": -3.3737214
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3,
-          "avg_power": 280,
-          "max_power": 287,
-          "avg_hr": 132,
-          "max_hr": 132,
-          "avg_cadence": 96.0,
-          "zone": 2,
-          "training_load": 0.033867188,
-          "decoupling": 4.529617
-        },
-        {
-          "type": "WORK",
-          "label": "1860s@219w82rpm",
-          "duration_secs": 1860,
-          "avg_power": 219,
-          "max_power": 514,
-          "avg_hr": 130,
-          "max_hr": 147,
-          "avg_cadence": 82.17736,
-          "zone": 1,
-          "training_load": 17.94649,
-          "decoupling": -0.47560903
-        },
-        {
-          "type": "WORK",
-          "label": "168s@58w28rpm",
-          "duration_secs": 168,
-          "avg_power": 58,
-          "max_power": 236,
-          "avg_hr": 97,
-          "max_hr": 106,
-          "avg_cadence": 28.416666,
-          "zone": 1,
-          "training_load": 0.1058
         }
       ]
     }
