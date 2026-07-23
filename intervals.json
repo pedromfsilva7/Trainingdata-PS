@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T23:15:42.094146",
+  "generated_at": "2026-07-23T01:01:40.235706",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -222,75 +222,6 @@
           "zone": 1,
           "training_load": 2.7354844,
           "decoupling": -24.145866
-        }
-      ]
-    },
-    {
-      "activity_id": "i164233031",
-      "date": "2026-07-08",
-      "type": "Ride",
-      "name": "Lunch Ciclismo",
-      "interval_summary": [
-        "1x 8s 147w",
-        "1x 15m53s 143w"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "8s@147w61rpm",
-          "duration_secs": 8,
-          "avg_power": 147,
-          "max_power": 188,
-          "avg_hr": 96,
-          "max_hr": 99,
-          "avg_cadence": 60.75,
-          "zone": 1,
-          "decoupling": 18.988638
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 2,
-          "avg_power": 153,
-          "max_power": 164,
-          "avg_hr": 99,
-          "max_hr": 100,
-          "avg_cadence": 74.0,
-          "zone": 1,
-          "decoupling": 13.676829
-        },
-        {
-          "type": "WORK",
-          "label": "953s@143w69rpm",
-          "duration_secs": 953,
-          "avg_power": 143,
-          "max_power": 310,
-          "avg_hr": 105,
-          "max_hr": 122,
-          "avg_cadence": 68.99684,
-          "zone": 1,
-          "training_load": 4.502324,
-          "decoupling": 12.449831
-        }
-      ]
-    },
-    {
-      "activity_id": "i164233020",
-      "date": "2026-07-08",
-      "type": "Ride",
-      "name": "Morning Ciclismo",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 6985,
-          "avg_power": 159,
-          "max_power": 581,
-          "avg_hr": 113,
-          "max_hr": 159,
-          "avg_cadence": 71.41112,
-          "zone": 1,
-          "training_load": 42.46125,
-          "decoupling": -5.378025
         }
       ]
     }
