@@ -64,13 +64,13 @@
     "quick_stats": {
       "total_training_hours": 0.0,
       "total_training_formatted": "0s",
-      "total_activities": 7,
+      "total_activities": 6,
       "total_tss": 0
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-27T23:34:46.434304",
+    "last_updated": "2026-07-28T01:05:28.340962",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -103,10 +103,10 @@
   "alerts": [
     {
       "metric": "race_taper",
-      "value": 9,
+      "value": 8,
       "severity": "info",
       "threshold": "RACE_A within 8-14 days",
-      "context": "RACE_A 'VOLTA A PORTUGAL' in 9 days. Begin volume reduction (target 41-60% over 2 weeks). Maintain intensity. CTL should peak now or within the next few days.",
+      "context": "RACE_A 'VOLTA A PORTUGAL' in 8 days. Begin volume reduction (target 41-60% over 2 weeks). Maintain intensity. CTL should peak now or within the next few days.",
       "persistence_days": null,
       "tier": 1
     }
@@ -143,7 +143,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -13.7
+        "value": -12.1
       }
     },
     "signal_summary": {
@@ -174,11 +174,11 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 0.0,
-    "total_activities": 7,
+    "total_activities": 6,
     "by_activity_type": {
       "Unknown": {
         "duration_decimal_hours": 0.0,
-        "count": 7,
+        "count": 6,
         "tss": 0,
         "distance_km": 0.0,
         "display": {
@@ -192,10 +192,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 121.48,
-      "atl": 135.13,
-      "tsb": -13.65,
-      "ramp_rate": 5.52,
+      "ctl": 122.0,
+      "atl": 134.11,
+      "tsb": -12.11,
+      "ramp_rate": 5.25,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -376,12 +376,12 @@
       "power_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-06-30",
-          "end": "2026-07-27"
+          "start": "2026-07-01",
+          "end": "2026-07-28"
         },
         "previous_window": {
-          "start": "2026-06-02",
-          "end": "2026-06-29"
+          "start": "2026-06-03",
+          "end": "2026-06-30"
         },
         "anchors": {
           "5s": {
@@ -416,12 +416,12 @@
       "hr_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-06-30",
-          "end": "2026-07-27"
+          "start": "2026-07-01",
+          "end": "2026-07-28"
         },
         "previous_window": {
-          "start": "2026-06-02",
-          "end": "2026-06-29"
+          "start": "2026-06-03",
+          "end": "2026-06-30"
         },
         "anchors": {
           "60s": {
@@ -451,8 +451,8 @@
       "sustainability_profile": {
         "window": {
           "days": 42,
-          "start": "2026-06-16",
-          "end": "2026-07-27"
+          "start": "2026-06-17",
+          "end": "2026-07-28"
         },
         "weight_kg": 67.0,
         "weight_source": "athlete_profile",
@@ -546,7 +546,7 @@
           "coverage_ratio": 1.0,
           "ftp_used": 400,
           "w_prime_used": 33704,
-          "ftp_staleness_days": 28,
+          "ftp_staleness_days": 29,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
       },
@@ -554,14 +554,14 @@
     },
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 1,
-      "completed_days": 6,
+      "planned_days": 2,
+      "completed_days": 5,
       "matched_days": 0,
       "planned_dates": [
-        "2026-07-27"
+        "2026-07-27",
+        "2026-07-28"
       ],
       "completed_dates": [
-        "2026-07-21",
         "2026-07-22",
         "2026-07-23",
         "2026-07-24",
@@ -583,13 +583,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 8.73,
-          "hard_sessions_planned": 6,
+          "planned_tss_delta": 8.22,
+          "hard_sessions_planned": 5,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 6,
-          "race_proximity": 9,
+          "current_week_hard_days_total": 5,
+          "race_proximity": 8,
           "next_week_load": 7.92,
-          "plan_coverage_current_week": 0.55,
+          "plan_coverage_current_week": 0.45,
           "plan_coverage_next_week": 0.55
         },
         "data_quality": "good",
@@ -625,13 +625,13 @@
     "p_max": 1220,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-27T23:34:46.433254",
+    "calculation_timestamp": "2026-07-28T01:05:28.339988",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
-      "activities_7d": 7,
+      "activities_7d": 6,
       "activities_28d": 39,
-      "planned_workouts_7d": 1,
+      "planned_workouts_7d": 2,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -4063,48 +4063,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-07-21",
-      "weight_kg": null,
-      "display": {
-        "weight": null
-      },
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
-      "spO2": null,
-      "blood_glucose": null,
-      "systolic": null,
-      "diastolic": null,
-      "baevsky_si": null,
-      "lactate": null,
-      "respiration": null,
-      "body_fat_pct": null,
-      "abdomen_cm": null,
-      "steps": null,
-      "hydration_volume_l": null,
-      "kcal_consumed": null,
-      "carbohydrates_g": null,
-      "protein_g": null,
-      "fat_g": null,
-      "menstrual_phase": null,
-      "menstrual_phase_predicted": null,
-      "readiness": null
-    },
-    {
       "date": "2026-07-22",
       "weight_kg": null,
       "display": {
@@ -4355,23 +4313,51 @@
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
       "readiness": null
+    },
+    {
+      "date": "2026-07-28",
+      "weight_kg": null,
+      "display": {
+        "weight": null
+      },
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null,
+      "fatigue": null,
+      "soreness": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "hydration": null,
+      "spO2": null,
+      "blood_glucose": null,
+      "systolic": null,
+      "diastolic": null,
+      "baevsky_si": null,
+      "lactate": null,
+      "respiration": null,
+      "body_fat_pct": null,
+      "abdomen_cm": null,
+      "steps": null,
+      "hydration_volume_l": null,
+      "kcal_consumed": null,
+      "carbohydrates_g": null,
+      "protein_g": null,
+      "fat_g": null,
+      "menstrual_phase": null,
+      "menstrual_phase_predicted": null,
+      "readiness": null
     }
   ],
   "planned_workouts": [
-    {
-      "id": 125145629,
-      "date": "2026-07-27",
-      "name": "IntervalCoach - Endurance Cruise",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 147,
-      "duration_hours": 3.57,
-      "duration_formatted": "3h34m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hey Pedromfsilva7! Long endurance ride today 15m ramp 45-75% 85rpm\n\nMain Set\n- Low 63m 63% 85rpm\n- Settle In 63m 63-68% 85rpm\n- Cruise 63m 68-63% 88rpm\n\nCooldown\n- Excellent ride, enjoy your recovery 10m ramp 65-45%\n\n[Weekly Plan - Taper]"
-    },
     {
       "id": 125145641,
       "date": "2026-07-28",
@@ -4454,7 +4440,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description_preview": "Warmup\n- Hey Pedromfsilva7! Active recovery awaits. 14m ramp 45-55% 85rpm\nMain Set"
+      "description": "Warmup\n- Hey Pedromfsilva7! Active recovery awaits. 14m ramp 45-55% 85rpm\n\nMain Set\n- Easy Spin 36m 38-44% 80rpm intensity=recovery\n- Loosen Up 36m 44-50% 85rpm intensity=recovery\n\nCooldown\n- Great job, enjoy the easy spin. 10m ramp 55-45%\n\n[Weekly Plan - Taper]"
     },
     {
       "id": 119484578,
@@ -4674,18 +4660,18 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 19,
+    "attempted": 18,
     "success": 10,
     "patternA": 7,
     "patternB": 3,
     "bail_no_workout_doc": 3,
-    "bail_no_match": 9
+    "bail_no_match": 8
   },
   "weekly_summary": {
     "total_training_hours": 0.0,
     "total_training_formatted": "0s",
     "total_tss": 0,
-    "activities_count": 7,
+    "activities_count": 6,
     "avg_hrv": null,
     "avg_resting_hr": null
   },
@@ -4695,7 +4681,7 @@
       "date": "2026-08-05",
       "category": "RACE_A",
       "type": "Ride",
-      "days_until": 9,
+      "days_until": 8,
       "moving_time_seconds": null,
       "distance_meters": null,
       "display": {
@@ -4709,7 +4695,7 @@
         "date": "2026-08-05",
         "category": "RACE_A",
         "type": "Ride",
-        "days_until": 9,
+        "days_until": 8,
         "moving_time_seconds": null,
         "distance_meters": null,
         "display": {
@@ -4722,8 +4708,8 @@
       "active": true,
       "event_name": "VOLTA A PORTUGAL",
       "event_date": "2026-08-05",
-      "days_until": 9,
-      "message": "RACE_A 'VOLTA A PORTUGAL' in 9 days. Begin volume reduction (target 41-60% over 2 weeks). Maintain intensity. CTL should peak now or within the next few days."
+      "days_until": 8,
+      "message": "RACE_A 'VOLTA A PORTUGAL' in 8 days. Begin volume reduction (target 41-60% over 2 weeks). Maintain intensity. CTL should peak now or within the next few days."
     },
     "race_week": {
       "active": false
