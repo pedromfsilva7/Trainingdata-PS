@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-31T00:03:05.067904",
+    "last_updated": "2026-07-31T03:50:37.588072",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -106,7 +106,7 @@
       "value": 5,
       "severity": "info",
       "threshold": "RACE_A within 7 days",
-      "context": "Race week D-5 of 'VOLTA A PORTUGAL'. Today: Moderate endurance, 49-73 TSS. Z1-Z2 + 2-3 race-pace touches",
+      "context": "Race week D-5 of 'VOLTA A PORTUGAL'. Today: Moderate endurance, 47-71 TSS. Z1-Z2 + 2-3 race-pace touches",
       "persistence_days": null,
       "tier": 1
     }
@@ -143,7 +143,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -1.0
+        "value": 13.1
       }
     },
     "signal_summary": {
@@ -192,10 +192,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 121.34,
-      "atl": 122.32,
-      "tsb": -0.98,
-      "ramp_rate": 3.85,
+      "ctl": 117.84,
+      "atl": 104.78,
+      "tsb": 13.06,
+      "ramp_rate": 0.36,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -627,7 +627,7 @@
     "p_max": 1220,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-31T00:03:05.066829",
+    "calculation_timestamp": "2026-07-31T03:50:37.586954",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
@@ -4100,18 +4100,18 @@
       "event_moving_time_seconds": null,
       "days_until_event": 5,
       "current_day": "D-5",
-      "ctl_baseline": 121.3,
-      "normal_weekly_tss": 849.4,
+      "ctl_baseline": 117.8,
+      "normal_weekly_tss": 824.9,
       "race_week_tss_budget": {
-        "min": 340,
-        "max": 467
+        "min": 330,
+        "max": 454
       },
       "race_week_tss_spent": 0,
       "race_week_tss_remaining": {
-        "min": 340,
-        "max": 467
+        "min": 330,
+        "max": 454
       },
-      "projected_race_day_tsb": 47.8,
+      "projected_race_day_tsb": 53.3,
       "tsb_target_range": {
         "min": 10,
         "max": 25
@@ -4119,8 +4119,8 @@
       "today": {
         "label": "Moderate endurance",
         "load_target_tss": {
-          "min": 49,
-          "max": 73
+          "min": 47,
+          "max": 71
         },
         "zones": "Z1-Z2 + 2-3 race-pace touches",
         "purpose": "Maintain feel without adding fatigue."
