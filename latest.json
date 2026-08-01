@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-01T00:11:20.534875",
+    "last_updated": "2026-08-01T03:52:02.798769",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -106,7 +106,7 @@
       "value": 4,
       "severity": "info",
       "threshold": "RACE_A within 7 days",
-      "context": "Race week D-4 of 'VOLTA A PORTUGAL'. Today: Easy / rest, 24-47 TSS. Z1-Z2 only",
+      "context": "Race week D-4 of 'VOLTA A PORTUGAL'. Today: Easy / rest, 23-46 TSS. Z1-Z2 only",
       "persistence_days": null,
       "tier": 1
     }
@@ -143,7 +143,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 11.1
+        "value": 24.2
       }
     },
     "signal_summary": {
@@ -192,17 +192,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 118.33,
-      "atl": 107.22,
-      "tsb": 11.11,
-      "ramp_rate": 2.05,
+      "ctl": 115.07,
+      "atl": 90.83,
+      "tsb": 24.24,
+      "ramp_rate": -1.21,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 394.7,
-      "w_prime": 33704,
-      "w_prime_kj": 33.7,
-      "p_max": 1220,
+      "eftp": 393.9,
+      "w_prime": 33637,
+      "w_prime_kj": 33.6,
+      "p_max": 1218,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -545,7 +545,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 400,
-          "w_prime_used": 33704,
+          "w_prime_used": 33637,
           "ftp_staleness_days": 33,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -621,13 +621,13 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 394.7,
-    "w_prime": 33704,
-    "w_prime_kj": 33.7,
-    "p_max": 1220,
+    "eftp": 393.9,
+    "w_prime": 33637,
+    "w_prime_kj": 33.6,
+    "p_max": 1218,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-01T00:11:20.533799",
+    "calculation_timestamp": "2026-08-01T03:52:02.797736",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
@@ -3554,18 +3554,18 @@
       "event_moving_time_seconds": null,
       "days_until_event": 4,
       "current_day": "D-4",
-      "ctl_baseline": 118.3,
-      "normal_weekly_tss": 828.3,
+      "ctl_baseline": 115.1,
+      "normal_weekly_tss": 805.5,
       "race_week_tss_budget": {
-        "min": 331,
-        "max": 456
+        "min": 322,
+        "max": 443
       },
       "race_week_tss_spent": 0,
       "race_week_tss_remaining": {
-        "min": 331,
-        "max": 456
+        "min": 322,
+        "max": 443
       },
-      "projected_race_day_tsb": 47.0,
+      "projected_race_day_tsb": 53.3,
       "tsb_target_range": {
         "min": 10,
         "max": 25
@@ -3573,8 +3573,8 @@
       "today": {
         "label": "Easy / rest",
         "load_target_tss": {
-          "min": 24,
-          "max": 47
+          "min": 23,
+          "max": 46
         },
         "zones": "Z1-Z2 only",
         "purpose": "Volume reduction. Carb loading begins if applicable. Easy endurance preferred over complete rest for long events."
