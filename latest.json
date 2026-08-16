@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-16T05:46:00.297534",
+    "last_updated": "2026-08-16T06:40:46.347249",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -472,7 +472,7 @@
           "race_proximity": null,
           "next_week_load": null,
           "plan_coverage_current_week": 0.11,
-          "plan_coverage_next_week": 0.56
+          "plan_coverage_next_week": 0.78
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -507,7 +507,7 @@
     "p_max": 1206,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-16T05:46:00.296409",
+    "calculation_timestamp": "2026-08-16T06:40:46.346117",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
@@ -2134,6 +2134,20 @@
       "description": "Warmup\n- Hey Pedromfsilva7! Endurance and tempo awaits. 15m ramp 45-75% 85rpm\n\nMain Set\n6x\n- Endurance 24m 65-75% 88rpm\n- Tempo 5m 76-82% 90rpm\n\nRecovery\n- Endurance 2m 60-70%\n\nCooldown\n- Awesome work, recover well now. 10m ramp 65-45%\n\n[Weekly Plan - Taper]"
     },
     {
+      "id": 129456548,
+      "date": "2026-08-17",
+      "name": "IntervalCoach - Lower-Body-Strength",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 37,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Lower Body Strength\n\nLeg strength for cycling power and running economy\n\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]\n2. Romanian Deadlift: 3 sets \u00d7 10 reps (Hinge at hips, slight knee bend) [Rest: 60 sec]\n3. Walking Lunges: 3 sets \u00d7 10 reps each leg (Keep torso upright, knee tracks over toe) [Rest: 45 sec]\n4. Step-ups: 3 sets \u00d7 10 reps each leg (Use bench or box, drive through heel) [Rest: 45 sec]\n5. Calf Raises: 3 sets \u00d7 15 reps (Full range of motion, hold at top) [Rest: 30 sec]\n6. Single Leg Glute Bridge: 3 sets \u00d7 10 reps each leg (Keep hips level throughout) [Rest: 30 sec]\n\nBuild phase: increase weight, lower reps (6-10) for strength gains.\n\n[Duration: ~45 min]\n\n[Weekly Plan - Build]"
+    },
+    {
       "id": 125145840,
       "date": "2026-08-18",
       "name": "IntervalCoach - Threshold Repeats",
@@ -2160,6 +2174,20 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description": "Warmup\n- Hello Pedromfsilva7! Long Fat Max ride awaits. 15m ramp 45-75% 85rpm\n\nMain Set\n- Low 63m 63% 85rpm\n- Settle In 63m 63-68% 85rpm\n- Cruise 63m 68-63% 88rpm\n\nCooldown\n- Fantastic work, recover well now. 10m ramp 65-45%\n\n[Weekly Plan - Taper]"
+    },
+    {
+      "id": 129456633,
+      "date": "2026-08-20",
+      "name": "IntervalCoach - Lower-Body-Strength",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 37,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Lower Body Strength\n\nLeg strength for cycling power and running economy\n\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]\n2. Romanian Deadlift: 3 sets \u00d7 10 reps (Hinge at hips, slight knee bend) [Rest: 60 sec]\n3. Walking Lunges: 3 sets \u00d7 10 reps each leg (Keep torso upright, knee tracks over toe) [Rest: 45 sec]\n4. Step-ups: 3 sets \u00d7 10 reps each leg (Use bench or box, drive through heel) [Rest: 45 sec]\n5. Calf Raises: 3 sets \u00d7 15 reps (Full range of motion, hold at top) [Rest: 30 sec]\n6. Single Leg Glute Bridge: 3 sets \u00d7 10 reps each leg (Keep hips level throughout) [Rest: 30 sec]\n\nBuild phase: increase weight, lower reps (6-10) for strength gains.\n\n[Duration: ~45 min]\n\n[Weekly Plan - Build]"
     },
     {
       "id": 125145856,
@@ -2209,7 +2237,7 @@
     "success": 3,
     "patternA": 2,
     "patternB": 1,
-    "bail_no_workout_doc": 0,
+    "bail_no_workout_doc": 2,
     "bail_no_match": 3
   },
   "weekly_summary": {
