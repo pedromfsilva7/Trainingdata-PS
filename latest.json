@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-23T06:41:39.471039",
+    "last_updated": "2026-08-23T07:20:32.732632",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -470,7 +470,7 @@
           "race_proximity": null,
           "next_week_load": null,
           "plan_coverage_current_week": 0.17,
-          "plan_coverage_next_week": 1.0
+          "plan_coverage_next_week": 0.83
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -503,7 +503,7 @@
     "p_max": 1197,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-23T06:41:39.469936",
+    "calculation_timestamp": "2026-08-23T07:20:32.731573",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
@@ -1730,20 +1730,6 @@
       "description": "Warmup\n- Hey Pedromfsilva7! Aerobic endurance awaits. 15m ramp 45-75% 85rpm\n\nMain Set\n- Low 54m 65% 85rpm\n- Mid 54m 69% 88rpm\n- Upper 53m 73% 90rpm\n\nCooldown\n- Fantastic ride, recover well! 10m ramp 65-45%\n\n[Weekly Plan - Taper]"
     },
     {
-      "id": 131017149,
-      "date": "2026-08-24",
-      "name": "IntervalCoach - Core-Stability",
-      "type": "WORKOUT",
-      "sport_type": "WeightTraining",
-      "planned_tss": 37,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Core Stability\n\nCore exercises to improve stability, posture, and power transfer\n\n1. Plank: 5 sets \u00d7 45-60 sec (Keep body in straight line, engage glutes) [Rest: 30 sec]\n2. Side Plank: 3 sets \u00d7 30 sec each side (Stack feet or stagger for stability) [Rest: 15 sec]\n3. Dead Bug: 5 sets \u00d7 10 reps each side (Keep lower back pressed to floor) [Rest: 30 sec]\n4. Bird Dog: 5 sets \u00d7 10 reps each side (Extend opposite arm and leg, hold 2s) [Rest: 30 sec]\n5. Glute Bridge: 5 sets \u00d7 15 reps (Squeeze glutes at top, hold 2s) [Rest: 30 sec]\n6. Pallof Press: 5 sets \u00d7 10 reps each side (Band at chest height, press and hold, resist rotation) [Rest: 30 sec]\n\n[Duration: ~45 min]\n\n[Weekly Plan - Recovery]"
-    },
-    {
       "id": 131017418,
       "date": "2026-08-25",
       "name": "IntervalCoach - 4x10 Endurance Spin-Ups",
@@ -1819,7 +1805,7 @@
     "success": 2,
     "patternA": 2,
     "patternB": 0,
-    "bail_no_workout_doc": 1,
+    "bail_no_workout_doc": 0,
     "bail_no_match": 4
   },
   "weekly_summary": {
