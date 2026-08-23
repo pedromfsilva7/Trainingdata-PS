@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-23T05:46:58.692432",
+    "last_updated": "2026-08-23T06:41:39.471039",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -470,7 +470,7 @@
           "race_proximity": null,
           "next_week_load": null,
           "plan_coverage_current_week": 0.17,
-          "plan_coverage_next_week": 0.0
+          "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -503,7 +503,7 @@
     "p_max": 1197,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-23T05:46:58.691381",
+    "calculation_timestamp": "2026-08-23T06:41:39.469936",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
@@ -1728,15 +1728,99 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description": "Warmup\n- Hey Pedromfsilva7! Aerobic endurance awaits. 15m ramp 45-75% 85rpm\n\nMain Set\n- Low 54m 65% 85rpm\n- Mid 54m 69% 88rpm\n- Upper 53m 73% 90rpm\n\nCooldown\n- Fantastic ride, recover well! 10m ramp 65-45%\n\n[Weekly Plan - Taper]"
+    },
+    {
+      "id": 131017149,
+      "date": "2026-08-24",
+      "name": "IntervalCoach - Core-Stability",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 37,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Core Stability\n\nCore exercises to improve stability, posture, and power transfer\n\n1. Plank: 5 sets \u00d7 45-60 sec (Keep body in straight line, engage glutes) [Rest: 30 sec]\n2. Side Plank: 3 sets \u00d7 30 sec each side (Stack feet or stagger for stability) [Rest: 15 sec]\n3. Dead Bug: 5 sets \u00d7 10 reps each side (Keep lower back pressed to floor) [Rest: 30 sec]\n4. Bird Dog: 5 sets \u00d7 10 reps each side (Extend opposite arm and leg, hold 2s) [Rest: 30 sec]\n5. Glute Bridge: 5 sets \u00d7 15 reps (Squeeze glutes at top, hold 2s) [Rest: 30 sec]\n6. Pallof Press: 5 sets \u00d7 10 reps each side (Band at chest height, press and hold, resist rotation) [Rest: 30 sec]\n\n[Duration: ~45 min]\n\n[Weekly Plan - Recovery]"
+    },
+    {
+      "id": 131017418,
+      "date": "2026-08-25",
+      "name": "IntervalCoach - 4x10 Endurance Spin-Ups",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 58,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": "11m @240W | 4\u00d710m @280W / 1m rec | 12m @280W | 8m @220W",
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey Pedromfsilva7! Endurance with spin-ups incoming. 11m ramp 45-75% 85rpm\n\nMain Set\n4x\n- Endurance 10m 65-75% 88rpm\n- Spin-Up 1m 75% 110rpm\n\nRecovery\n- Endurance 5 12m 65-75% 88rpm\n\nCooldown\n- Crushed it, Pedromfsilva7! Enjoy the recovery. 8m ramp 65-45%\n\n\n[Weekly Plan - Recovery]"
+    },
+    {
+      "id": 131017580,
+      "date": "2026-08-26",
+      "name": "IntervalCoach - Long Aerobic",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 57,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey Pedromfsilva7! Easy aerobic ride ahead 11m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 8m 65-70% 85rpm\n- Steady 48m 70% 88rpm\n\nCooldown\n- Well done, recover strong 8m ramp 65-45%\n\n[Weekly Plan - Recovery]"
+    },
+    {
+      "id": 131017611,
+      "date": "2026-08-28",
+      "name": "IntervalCoach - 4x6 Endurance Cadence",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 57,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": "11m @240W | 4\u00d76m @280W / 6m rec | 8m @280W | 8m @220W",
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey Pedromfsilva7! Let's get rolling. 11m ramp 45-75% 85rpm\n\nMain Set\n4x\n- High Cadence 6m 70% 100rpm\n- Low Cadence 6m 70% 70rpm\n\nRecovery\n- High Cadence 5 8m 70% 100rpm\n\nCooldown\n- Great job, Pedromfsilva7! Recover well. 8m ramp 65-45%\n\n\n[Weekly Plan - Recovery]"
+    },
+    {
+      "id": 131017673,
+      "date": "2026-08-29",
+      "name": "IntervalCoach - Recovery Spin",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 36,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey Pedromfsilva7! Easy recovery ride ahead. 11m ramp 45-55% 85rpm\n\nMain Set\n- Easy Spin 28m 54% 85rpm intensity=recovery\n- Loosen Up 28m 55% 90rpm intensity=recovery\n\nCooldown\n- Well done, Pedromfsilva7! Enjoy the spin. 8m ramp 55-45%\n\n[Weekly Plan - Recovery]"
+    },
+    {
+      "id": 131017693,
+      "date": "2026-08-30",
+      "name": "IntervalCoach - Aerobic Endurance",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 55,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hello Pedromfsilva7! Recovery ride today. 11m ramp 45-75% 85rpm\n\nMain Set\n- Low 19m 68% 85rpm\n- Settle In 19m 68% 85rpm\n- Cruise 18m 68% 88rpm\n\nCooldown\n- Well done, enjoy the easy spin. 8m ramp 65-45%\n\n[Weekly Plan - Recovery]"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 6,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
-    "bail_no_workout_doc": 0,
-    "bail_no_match": 1
+    "bail_no_workout_doc": 1,
+    "bail_no_match": 4
   },
   "weekly_summary": {
     "total_training_hours": 0.0,
