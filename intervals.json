@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T10:49:33.333037",
+  "generated_at": "2026-09-02T14:59:47.677283",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -362,6 +362,63 @@
           "avg_cadence": 77.90063,
           "zone": 1,
           "training_load": 23.655972
+        }
+      ]
+    },
+    {
+      "activity_id": "i182451973",
+      "date": "2026-09-02",
+      "type": "Ride",
+      "name": "IntervalCoach - 3x2 Endurance Strength Threshold",
+      "interval_summary": [
+        "1x 58m21s 216w",
+        "1x 6m2s 439w",
+        "1x 56m45s 174w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "3501s@216w84rpm",
+          "duration_secs": 3501,
+          "avg_power": 216,
+          "max_power": 603,
+          "avg_cadence": 84.06812,
+          "zone": 1,
+          "training_load": 31.253757
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5,
+          "avg_power": 249,
+          "max_power": 262,
+          "avg_cadence": 97.4,
+          "zone": 2,
+          "training_load": 0.050417535
+        },
+        {
+          "type": "WORK",
+          "label": "362s@439w94rpm",
+          "duration_secs": 362,
+          "avg_power": 439,
+          "max_power": 556,
+          "avg_cadence": 94.1105,
+          "zone": 5,
+          "training_load": 12.22259
+        },
+        {
+          "type": "WORK",
+          "label": "3405s@174w79rpm",
+          "duration_secs": 3405,
+          "avg_power": 174,
+          "max_power": 863,
+          "avg_cadence": 78.677086,
+          "zone": 1,
+          "training_load": 24.732231
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "zone": 1
         }
       ]
     }
