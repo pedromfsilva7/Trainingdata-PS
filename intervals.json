@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T05:54:10.648563",
+  "generated_at": "2026-09-02T10:49:33.333037",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -303,6 +303,65 @@
           "avg_cadence": 86.87059,
           "zone": 1,
           "training_load": 0.38728124
+        }
+      ]
+    },
+    {
+      "activity_id": "i182395465",
+      "date": "2026-09-01",
+      "type": "Ride",
+      "name": "IntervalCoach - 4x10 Progressive Threshold",
+      "interval_summary": [
+        "1x 10s 602w",
+        "1x 17s 660w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 6440,
+          "avg_power": 166,
+          "max_power": 657,
+          "avg_cadence": 76.479034,
+          "zone": 1,
+          "training_load": 28.5172
+        },
+        {
+          "type": "WORK",
+          "label": "10s@602w102rpm",
+          "duration_secs": 10,
+          "avg_power": 602,
+          "max_power": 751,
+          "avg_cadence": 102.4,
+          "zone": 7,
+          "training_load": 0.14802778
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 38,
+          "avg_power": 150,
+          "max_power": 499,
+          "avg_cadence": 55.94737,
+          "zone": 1,
+          "training_load": 0.66294825
+        },
+        {
+          "type": "WORK",
+          "label": "17s@660w99rpm",
+          "duration_secs": 17,
+          "avg_power": 660,
+          "max_power": 758,
+          "avg_cadence": 99.0,
+          "zone": 7,
+          "training_load": 0.35537377
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3699,
+          "avg_power": 165,
+          "max_power": 522,
+          "avg_cadence": 77.90063,
+          "zone": 1,
+          "training_load": 23.655972
         }
       ]
     }
