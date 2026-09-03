@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T15:07:27.082997",
+  "generated_at": "2026-09-03T18:40:17.533010",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -419,6 +419,48 @@
           "type": "RECOVERY",
           "duration_secs": 1,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i182963020",
+      "date": "2026-09-03",
+      "type": "Ride",
+      "name": "\u00c1gueda Ciclismo de estrada",
+      "interval_summary": [
+        "2x 35m51s 281w",
+        "1x 1h37m 292w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "2151s@281w93rpm",
+          "duration_secs": 2204,
+          "avg_power": 270,
+          "max_power": 873,
+          "avg_cadence": 84.7255,
+          "zone": 2,
+          "training_load": 43.973244
+        },
+        {
+          "type": "WORK",
+          "label": "2151s@281w93rpm",
+          "duration_secs": 2098,
+          "avg_power": 291,
+          "max_power": 584,
+          "avg_cadence": 100.81363,
+          "zone": 2,
+          "training_load": 36.371162
+        },
+        {
+          "type": "WORK",
+          "label": "5826s@292w98rpm",
+          "duration_secs": 5826,
+          "avg_power": 292,
+          "max_power": 1181,
+          "avg_cadence": 97.72691,
+          "zone": 2,
+          "training_load": 99.725746
         }
       ]
     }
