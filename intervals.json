@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T14:05:34.283848",
+  "generated_at": "2026-09-06T17:03:31.662092",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -637,6 +637,24 @@
           "avg_cadence": 35.0,
           "zone": 1,
           "training_load": 0.0023361112
+        }
+      ]
+    },
+    {
+      "activity_id": "i183946716",
+      "date": "2026-09-06",
+      "type": "Ride",
+      "name": "IntervalCoach - Endurance + Tempo Pushes",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1314,
+          "avg_power": 169,
+          "max_power": 438,
+          "avg_cadence": 78.61843,
+          "zone": 1,
+          "training_load": 9.118055
         }
       ]
     }
