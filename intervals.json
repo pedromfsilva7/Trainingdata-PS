@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T16:07:54.055304",
+  "generated_at": "2026-09-09T19:17:09.357206",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -715,6 +715,24 @@
           "avg_cadence": 28.0,
           "zone": 1,
           "training_load": 0.033764064
+        }
+      ]
+    },
+    {
+      "activity_id": "i184973789",
+      "date": "2026-09-09",
+      "type": "Ride",
+      "name": "IntervalCoach - 7x22 Endurance Sprints",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 9580,
+          "avg_power": 203,
+          "max_power": 785,
+          "avg_cadence": 81.22209,
+          "zone": 1,
+          "training_load": 58.66062
         }
       ]
     }
