@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-13T05:11:50.319107",
+    "last_updated": "2026-09-13T10:18:59.717327",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -602,9 +602,9 @@
           "current_week_hard_days_completed": 3,
           "current_week_hard_days_total": 4,
           "race_proximity": null,
-          "next_week_load": null,
+          "next_week_load": 2.11,
           "plan_coverage_current_week": 0.25,
-          "plan_coverage_next_week": 0.0
+          "plan_coverage_next_week": 1.75
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -637,7 +637,7 @@
     "p_max": 1185,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-13T05:11:50.318252",
+    "calculation_timestamp": "2026-09-13T10:18:59.716233",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
@@ -5535,15 +5535,113 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description": "Warmup\n- Hey Pedromfsilva7! Long steady state ride ahead. 12m ramp 45-75% 85rpm\n- Primer 1 1m 94% 90rpm\n- Primer recovery 30s 55%\n- Primer 2 1m 94% 90rpm\n- Primer recovery 30s 55%\n\nMain Set\n8x\n- Endurance 8m 65-75% 85rpm\n- Pickup 30s 86-94% 95rpm\n\nRecovery\n- Endurance 1m 65-75% 85rpm\n- Sweet Spot 1 15m 94% 90rpm\n- Recovery 5m 55%\n- Sweet Spot 2 15m 94% 90rpm\n- Recovery 5m 55%\n- Sweet Spot 3 15m 94% 90rpm\n\n8x\n- Endurance 8m 65-75% 85rpm\n- Pickup 30s 86-94% 95rpm\n\nRecovery\n- Endurance 1m 65-75% 85rpm\n\nCooldown\n- Fantastic effort, enjoy the recovery spin. 10m ramp 65-45%\n\n[Weekly Plan - Build \u00b7 type:sweetSpotSteady]"
+    },
+    {
+      "id": 135755457,
+      "date": "2026-09-14",
+      "name": "IntervalCoach - Lower-Body-Strength",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Lower Body Strength\n\nLeg strength for cycling power and running economy\n\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]\n2. Romanian Deadlift: 3 sets \u00d7 10 reps (Hinge at hips, slight knee bend) [Rest: 60 sec]\n3. Walking Lunges: 3 sets \u00d7 10 reps each leg (Keep torso upright, knee tracks over toe) [Rest: 45 sec]\n4. Step-ups: 3 sets \u00d7 10 reps each leg (Use bench or box, drive through heel) [Rest: 45 sec]\n5. Calf Raises: 3 sets \u00d7 15 reps (Full range of motion, hold at top) [Rest: 30 sec]\n6. Single Leg Glute Bridge: 3 sets \u00d7 10 reps each leg (Keep hips level throughout) [Rest: 30 sec]\n\nBuild phase: increase weight, lower reps (6-10) for strength gains.\n\n[Duration: ~45 min]\n\n[Weekly Plan - Build \u00b7 type:lower-body-strength]"
+    },
+    {
+      "id": 135755498,
+      "date": "2026-09-15",
+      "name": "IntervalCoach - 3x11 Threshold Intervals",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 107,
+      "duration_hours": 1.65,
+      "duration_formatted": "1h38m45s",
+      "workout_summary": "9m53s @240W | 49s @400W | 25s @220W | 49s @400W | 25s @220W | 16m @280W | 3\u00d711m @390W / 6m35s rec | 8m14s @220W",
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Main Set\n- Hey Pedromfsilva7! Threshold work awaits, let's go! 593s 45-75% 85rpm\n- Primer 1 49s 100% 90rpm\n- Primer recovery 25s 55%\n- Primer 2 49s 100% 90rpm\n- Primer recovery 25s 55%\n- Endurance 16m 65-75% 85rpm\n- Threshold 1 11m 95-100% 92rpm\n- Recovery 395s 55%\n- Threshold 2 11m 95-100% 92rpm\n- Recovery 395s 55%\n- Threshold 3 11m 95-100% 92rpm\n- Endurance 16m 65-75% 85rpm\n- Awesome threshold, Pedromfsilva7! Recover well now. 494s 65-45%"
+    },
+    {
+      "id": 135755524,
+      "date": "2026-09-16",
+      "name": "IntervalCoach - Aerobic Endurance",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 133,
+      "duration_hours": 3.25,
+      "duration_formatted": "3h15m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey Pedromfsilva7! Endurance ride ahead 15m ramp 45-75% 85rpm\n\nMain Set\n- Low 57m 63% 85rpm\n- Settle In 57m 63-68% 85rpm\n- Cruise 56m 63-68% 88rpm\n\nCooldown\n- Awesome work, recover well 10m ramp 65-45%\n\n[Weekly Plan - Build \u00b7 type:enduranceFatMax]"
+    },
+    {
+      "id": 135755532,
+      "date": "2026-09-17",
+      "name": "IntervalCoach - Lower-Body-Strength",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Lower Body Strength\n\nLeg strength for cycling power and running economy\n\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]\n2. Romanian Deadlift: 3 sets \u00d7 10 reps (Hinge at hips, slight knee bend) [Rest: 60 sec]\n3. Walking Lunges: 3 sets \u00d7 10 reps each leg (Keep torso upright, knee tracks over toe) [Rest: 45 sec]\n4. Step-ups: 3 sets \u00d7 10 reps each leg (Use bench or box, drive through heel) [Rest: 45 sec]\n5. Calf Raises: 3 sets \u00d7 15 reps (Full range of motion, hold at top) [Rest: 30 sec]\n6. Single Leg Glute Bridge: 3 sets \u00d7 10 reps each leg (Keep hips level throughout) [Rest: 30 sec]\n\nBuild phase: increase weight, lower reps (6-10) for strength gains.\n\n[Duration: ~45 min]\n\n[Weekly Plan - Build \u00b7 type:lower-body-strength]"
+    },
+    {
+      "id": 135755553,
+      "date": "2026-09-18",
+      "name": "IntervalCoach - Threshold Cadence Pyramid",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 229,
+      "duration_hours": 4.25,
+      "duration_formatted": "4h14m47s",
+      "workout_summary": "13m @240W | 14\u00d76m22s @280W / 25s rec | 5m57s @280W | 3m24s @304W | 3m24s @336W | 3m24s @364W | 3m24s @384W | 3m24s @400W | 3m24s @384W | 3m24s @364W | 3m24s @336W | 3m24s @304W | 14\u00d76m22s @280W / 25s rec | 6m48s @280W | 8m30s @220W",
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Main Set\n- Hey Pedromfsilva7! Cadence pyramid awaits. 13m 45-75% 85rpm\n\n14x\n- Endurance 382s 65-75% 85rpm\n- Pickup 25s 86-94% 95rpm\n\nRecovery\n- Endurance 357s 65-75% 85rpm\n- Recovery 204s 76%\n- Recovery 204s 84%\n- Recovery 204s 91%\n- Recovery 204s 96%\n- Recovery 204s 100%\n- Recovery 204s 96%\n- Recovery 204s 91%\n- Recovery 204s 84%\n- Recovery 204s 76%\n\n14x\n- Endurance 382s 65-75% 85rpm\n- Pickup 25s 86-94% 95rpm\n\nRecovery\n- Endurance 408s 65-75% 85rpm\n- Awesome work, Pedromfsilva7! Recover well. 510s 65-45%"
+    },
+    {
+      "id": 135755561,
+      "date": "2026-09-19",
+      "name": "IntervalCoach - 3x3 Endurance Strength Blocks",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 165,
+      "duration_hours": 3.25,
+      "duration_formatted": "3h15m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey Pedromfsilva7! Long endurance and strength day! 15m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 71m 65-75% 88rpm\n\n3x\n- Strength 1 (low cadence) 3m 82% 60rpm\n- Threshold 2m 95-100% 92rpm\n- Recovery 3m 55%\n\nMain Set\n- Strength 4 (low cadence) 3m 82% 60rpm\n- Threshold 4 2m 95-100% 92rpm\n- Cruise 70m 65-75% 88rpm\n\nCooldown\n- Fantastic ride, Pedromfsilva7! Recover well. 10m ramp 65-45%\n\n[Weekly Plan - Build \u00b7 type:enduranceWithStrength]"
+    },
+    {
+      "id": 135755568,
+      "date": "2026-09-20",
+      "name": "IntervalCoach - Threshold Force",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 231,
+      "duration_hours": 4.16,
+      "duration_formatted": "4h9m21s",
+      "workout_summary": "9m58s @240W | 25s @328W | 37s @220W | 25s @328W | 37s @220W | 25s @328W | 13\u00d76m14s @280W / 25s rec | 6m39s @280W | 3\u00d77m29s @380W / 4m9s rec | 7m29s @380W | 13\u00d76m14s @280W / 25s rec | 6m39s @280W | 8m19s @220W",
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Main Set\n- Hey Pedromfsilva7! Time for some serious force building. 598s 45-75% 85rpm\n- Torque primer 1 25s 82% 55rpm\n- Torque primer recovery 37s 55%\n- Torque primer 2 25s 82% 55rpm\n- Torque primer recovery 37s 55%\n- Torque primer 3 25s 82% 55rpm\n\n13x\n- Endurance 374s 65-75% 85rpm\n- Pickup 25s 86-94% 95rpm\n\nRecovery\n- Endurance 399s 65-75% 85rpm\n\n3x\n- Force 1 (low cadence) 449s 95% 60rpm\n- Recovery 249s 55%\n\nMain Set\n- Force 4 (low cadence) 449s 95% 60rpm\n\n13x\n- Endurance 374s 65-75% 85rpm\n- Pickup 25s 86-94% 95rpm\n\nRecovery\n- Endurance 399s 65-75% 85rpm\n- Fantastic effort, Pedromfsilva7! Spin easy now. 499s 65-45%"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
-    "success": 1,
-    "patternA": 1,
-    "patternB": 0,
-    "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "attempted": 6,
+    "success": 4,
+    "patternA": 3,
+    "patternB": 1,
+    "bail_no_workout_doc": 2,
+    "bail_no_match": 2
   },
   "weekly_summary": {
     "total_training_hours": 11.51,
