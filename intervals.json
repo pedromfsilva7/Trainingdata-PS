@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T16:56:26.518519",
+  "generated_at": "2026-09-16T19:55:01.375762",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -861,6 +861,138 @@
           "avg_cadence": 79.80159,
           "zone": 1,
           "training_load": 6.308072
+        }
+      ]
+    },
+    {
+      "activity_id": "i187384238",
+      "date": "2026-09-16",
+      "type": "Ride",
+      "name": "Luxembourg Ciclismo de estrada",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 98,
+          "avg_power": 39,
+          "max_power": 171,
+          "avg_cadence": 39.367348,
+          "zone": 1,
+          "training_load": 0.060078647
+        }
+      ]
+    },
+    {
+      "activity_id": "i187384247",
+      "date": "2026-09-16",
+      "type": "Ride",
+      "name": "IntervalCoach - Aerobic Endurance",
+      "interval_summary": [
+        "1x 1h 214w",
+        "2x 41m59s 267w",
+        "2x 14m25s 218w",
+        "1x 12m12s 244w",
+        "1x 30m33s 229w",
+        "1x 15m6s 285w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "3655s@214w81rpm",
+          "duration_secs": 3655,
+          "avg_power": 214,
+          "max_power": 740,
+          "avg_cadence": 81.42865,
+          "zone": 1,
+          "training_load": 47.9803
+        },
+        {
+          "type": "WORK",
+          "label": "2519s@267w78rpm",
+          "duration_secs": 2501,
+          "avg_power": 254,
+          "max_power": 1066,
+          "avg_cadence": 76.32499,
+          "zone": 2,
+          "training_load": 40.497616
+        },
+        {
+          "type": "WORK",
+          "label": "2519s@267w78rpm",
+          "duration_secs": 2537,
+          "avg_power": 280,
+          "max_power": 771,
+          "avg_cadence": 79.86401,
+          "zone": 2,
+          "training_load": 45.951855
+        },
+        {
+          "type": "WORK",
+          "label": "865s@218w75rpm",
+          "duration_secs": 891,
+          "avg_power": 224,
+          "max_power": 932,
+          "avg_cadence": 72.60337,
+          "zone": 2,
+          "training_load": 13.279767
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_power": 316,
+          "max_power": 316,
+          "avg_cadence": 98.0,
+          "zone": 2,
+          "training_load": 0.02640625
+        },
+        {
+          "type": "WORK",
+          "label": "865s@218w75rpm",
+          "duration_secs": 839,
+          "avg_power": 211,
+          "max_power": 751,
+          "avg_cadence": 76.977356,
+          "zone": 1,
+          "training_load": 10.383936
+        },
+        {
+          "type": "WORK",
+          "label": "732s@244w74rpm",
+          "duration_secs": 732,
+          "avg_power": 244,
+          "max_power": 748,
+          "avg_cadence": 73.89071,
+          "zone": 2,
+          "training_load": 11.899575
+        },
+        {
+          "type": "WORK",
+          "label": "1833s@229w78rpm",
+          "duration_secs": 1833,
+          "avg_power": 229,
+          "max_power": 935,
+          "avg_cadence": 77.99673,
+          "zone": 2,
+          "training_load": 26.763073
+        },
+        {
+          "type": "WORK",
+          "label": "906s@285w83rpm",
+          "duration_secs": 906,
+          "avg_power": 285,
+          "max_power": 862,
+          "avg_cadence": 82.76821,
+          "zone": 2,
+          "training_load": 19.822681
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_power": 226,
+          "max_power": 226,
+          "avg_cadence": 97.0,
+          "zone": 2,
+          "training_load": 0.014600694
         }
       ]
     }
