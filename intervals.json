@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T14:09:39.146068",
+  "generated_at": "2026-09-18T17:41:35.213944",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -894,6 +894,89 @@
           "avg_cadence": 97.0,
           "zone": 2,
           "training_load": 0.014600694
+        }
+      ]
+    },
+    {
+      "activity_id": "i188001712",
+      "date": "2026-09-18",
+      "type": "Ride",
+      "name": "IntervalCoach - Threshold Cadence Pyramid",
+      "interval_summary": [
+        "1x 2h36m 278w",
+        "1x 27m58s 291w",
+        "1x 19m59s 225w",
+        "1x 1s 1w",
+        "1x 11m22s 296w",
+        "1x 46m48s 271w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "9388s@278w78rpm",
+          "duration_secs": 9388,
+          "avg_power": 278,
+          "max_power": 929,
+          "avg_cadence": 77.55577,
+          "zone": 2,
+          "training_load": 185.1017
+        },
+        {
+          "type": "WORK",
+          "label": "1678s@291w77rpm",
+          "duration_secs": 1678,
+          "avg_power": 291,
+          "max_power": 928,
+          "avg_cadence": 76.77349,
+          "zone": 2,
+          "training_load": 36.07186
+        },
+        {
+          "type": "WORK",
+          "label": "1199s@225w83rpm",
+          "duration_secs": 1199,
+          "avg_power": 225,
+          "max_power": 663,
+          "avg_cadence": 82.838196,
+          "zone": 2,
+          "training_load": 15.062646
+        },
+        {
+          "type": "WORK",
+          "label": "1s@1w54rpm",
+          "duration_secs": 1,
+          "avg_power": 1,
+          "max_power": 1,
+          "avg_cadence": 54.0,
+          "zone": 1,
+          "training_load": 0.008711111
+        },
+        {
+          "type": "WORK",
+          "label": "682s@296w83rpm",
+          "duration_secs": 682,
+          "avg_power": 296,
+          "max_power": 921,
+          "avg_cadence": 82.62023,
+          "zone": 2,
+          "training_load": 15.860763
+        },
+        {
+          "type": "WORK",
+          "label": "2808s@271w76rpm",
+          "duration_secs": 2808,
+          "avg_power": 271,
+          "max_power": 813,
+          "avg_cadence": 75.98504,
+          "zone": 2,
+          "training_load": 54.058388
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_cadence": 14.0,
+          "zone": 1,
+          "training_load": 0.0055006943
         }
       ]
     }
