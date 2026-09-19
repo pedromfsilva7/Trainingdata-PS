@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T13:26:05.368909",
+  "generated_at": "2026-09-19T16:41:38.426978",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -884,6 +884,83 @@
           "avg_cadence": 14.0,
           "zone": 1,
           "training_load": 0.0055006943
+        }
+      ]
+    },
+    {
+      "activity_id": "i188265516",
+      "date": "2026-09-19",
+      "type": "Ride",
+      "name": "Ettelbr\u00fcck Ciclismo de estrada",
+      "interval_summary": [
+        "1x 2m31s 427w",
+        "1x 1m56s 401w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 375,
+          "avg_power": 283,
+          "max_power": 608,
+          "avg_cadence": 97.32277,
+          "zone": 2,
+          "training_load": 4.8309584
+        },
+        {
+          "type": "WORK",
+          "label": "151s@427w78rpm",
+          "duration_secs": 151,
+          "avg_power": 427,
+          "max_power": 549,
+          "avg_cadence": 78.17881,
+          "zone": 5,
+          "training_load": 4.5585485
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 889,
+          "avg_power": 283,
+          "max_power": 531,
+          "avg_cadence": 93.22722,
+          "zone": 2,
+          "training_load": 14.832101
+        },
+        {
+          "type": "WORK",
+          "label": "116s@401w86rpm",
+          "duration_secs": 116,
+          "avg_power": 401,
+          "max_power": 458,
+          "avg_cadence": 85.956894,
+          "zone": 4,
+          "training_load": 3.1104312
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 387,
+          "avg_power": 201,
+          "max_power": 636,
+          "avg_cadence": 78.78294,
+          "zone": 1,
+          "training_load": 4.4032
+        }
+      ]
+    },
+    {
+      "activity_id": "i188265502",
+      "date": "2026-09-19",
+      "type": "Ride",
+      "name": "Ettelbr\u00fcck Ciclismo de estrada",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1380,
+          "avg_power": 14,
+          "max_power": 150,
+          "avg_cadence": 42.372547,
+          "zone": 1,
+          "training_load": 7.1875e-05
         }
       ]
     }
