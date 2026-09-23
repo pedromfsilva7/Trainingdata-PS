@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T11:58:10.101017",
+  "generated_at": "2026-09-23T16:44:44.427621",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -800,6 +800,77 @@
           "avg_cadence": 42.372547,
           "zone": 1,
           "training_load": 7.1875e-05
+        }
+      ]
+    },
+    {
+      "activity_id": "i189569362",
+      "date": "2026-09-20",
+      "type": "Ride",
+      "name": "IntervalCoach - Threshold Force",
+      "interval_summary": [
+        "1x 1h43m 260w",
+        "2x 31m54s 291w",
+        "1x 3m45s 208w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "6182s@260w77rpm",
+          "duration_secs": 6182,
+          "avg_power": 260,
+          "max_power": 877,
+          "avg_cadence": 76.91959,
+          "zone": 2,
+          "training_load": 116.17116
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_power": 368,
+          "max_power": 368,
+          "avg_cadence": 88.0,
+          "zone": 4,
+          "training_load": 0.01625625
+        },
+        {
+          "type": "WORK",
+          "label": "1914s@291w79rpm",
+          "duration_secs": 1914,
+          "avg_power": 282,
+          "max_power": 907,
+          "avg_cadence": 77.91798,
+          "zone": 2,
+          "training_load": 35.31463
+        },
+        {
+          "type": "WORK",
+          "label": "225s@208w67rpm",
+          "duration_secs": 225,
+          "avg_power": 208,
+          "max_power": 592,
+          "avg_cadence": 66.54667,
+          "zone": 1,
+          "training_load": 2.540039
+        },
+        {
+          "type": "WORK",
+          "label": "1914s@291w79rpm",
+          "duration_secs": 1914,
+          "avg_power": 300,
+          "max_power": 857,
+          "avg_cadence": 81.035,
+          "zone": 2,
+          "training_load": 40.70573
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_power": 1,
+          "max_power": 1,
+          "avg_cadence": 67.0,
+          "zone": 1,
+          "training_load": 0.0025840278
         }
       ]
     }
