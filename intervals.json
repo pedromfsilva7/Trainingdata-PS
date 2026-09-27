@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T11:35:17.675567",
+  "generated_at": "2026-09-27T15:48:06.213173",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -671,6 +671,66 @@
           "avg_cadence": 72.76259,
           "zone": 1,
           "training_load": 97.94773
+        }
+      ]
+    },
+    {
+      "activity_id": "i190827200",
+      "date": "2026-09-27",
+      "type": "Ride",
+      "name": "IntervalCoach - 8x14 Endurance Spin-Ups",
+      "interval_summary": [
+        "1x 24m22s 265w",
+        "1x 33m1s 369w",
+        "1x 8m3s 222w",
+        "1x 57m36s 230w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1462s@265w86rpm",
+          "duration_secs": 1462,
+          "avg_power": 265,
+          "max_power": 470,
+          "avg_cadence": 86.178215,
+          "zone": 2,
+          "training_load": 20.517746
+        },
+        {
+          "type": "WORK",
+          "label": "1981s@369w88rpm",
+          "duration_secs": 1981,
+          "avg_power": 369,
+          "max_power": 577,
+          "avg_cadence": 87.79707,
+          "zone": 4,
+          "training_load": 49.141182
+        },
+        {
+          "type": "WORK",
+          "label": "483s@222w79rpm",
+          "duration_secs": 483,
+          "avg_power": 222,
+          "max_power": 339,
+          "avg_cadence": 78.70776,
+          "zone": 2,
+          "training_load": 4.960711
+        },
+        {
+          "type": "WORK",
+          "label": "3456s@230w74rpm",
+          "duration_secs": 3456,
+          "avg_power": 230,
+          "max_power": 627,
+          "avg_cadence": 73.51917,
+          "zone": 2,
+          "training_load": 49.2212
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "zone": 1,
+          "training_load": 0.0012543403
         }
       ]
     }
