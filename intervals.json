@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T06:58:22.525355",
+  "generated_at": "2026-09-28T15:16:59.046570",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -731,6 +731,45 @@
           "duration_secs": 1,
           "zone": 1,
           "training_load": 0.0012543403
+        }
+      ]
+    },
+    {
+      "activity_id": "i191220751",
+      "date": "2026-09-28",
+      "type": "Ride",
+      "name": "Barcelos Ciclismo de estrada",
+      "interval_summary": [
+        "1x 10m58s 333w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 8296,
+          "avg_power": 224,
+          "max_power": 508,
+          "avg_cadence": 82.4466,
+          "zone": 2,
+          "training_load": 56.548306
+        },
+        {
+          "type": "WORK",
+          "label": "658s@333w86rpm",
+          "duration_secs": 658,
+          "avg_power": 333,
+          "max_power": 446,
+          "avg_cadence": 86.0076,
+          "zone": 3,
+          "training_load": 12.591561
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2943,
+          "avg_power": 158,
+          "max_power": 481,
+          "avg_cadence": 67.42012,
+          "zone": 1,
+          "training_load": 23.8383
         }
       ]
     }
