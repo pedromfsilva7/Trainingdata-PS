@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T06:55:11.881864",
+  "generated_at": "2026-09-29T13:49:04.564058",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -770,6 +770,136 @@
           "avg_cadence": 67.42012,
           "zone": 1,
           "training_load": 23.8383
+        }
+      ]
+    },
+    {
+      "activity_id": "i191519754",
+      "date": "2026-09-29",
+      "type": "Ride",
+      "name": "Ponte de Lima Ciclismo de estrada",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1793,
+          "avg_power": 190,
+          "max_power": 450,
+          "avg_cadence": 51.665897,
+          "zone": 1,
+          "training_load": 13.379488
+        }
+      ]
+    },
+    {
+      "activity_id": "i191507795",
+      "date": "2026-09-29",
+      "type": "Ride",
+      "name": "Viana do Castelo Ciclismo de estrada",
+      "interval_summary": [
+        "1x 58m13s 194w",
+        "1x 12m57s 348w",
+        "1x 14m18s 198w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "3493s@194w68rpm",
+          "duration_secs": 3493,
+          "avg_power": 194,
+          "max_power": 659,
+          "avg_cadence": 68.28998,
+          "zone": 1,
+          "training_load": 23.422705
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2,
+          "avg_power": 259,
+          "max_power": 271,
+          "avg_cadence": 62.0,
+          "zone": 2,
+          "training_load": 0.013203125
+        },
+        {
+          "type": "WORK",
+          "label": "777s@348w51rpm",
+          "duration_secs": 777,
+          "avg_power": 348,
+          "max_power": 484,
+          "avg_cadence": 51.19691,
+          "zone": 4,
+          "training_load": 16.714134
+        },
+        {
+          "type": "WORK",
+          "label": "858s@198w64rpm",
+          "duration_secs": 858,
+          "avg_power": 198,
+          "max_power": 379,
+          "avg_cadence": 64.29776,
+          "zone": 1,
+          "training_load": 6.262277
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "zone": 1,
+          "training_load": 0.0001
+        }
+      ]
+    },
+    {
+      "activity_id": "i191485282",
+      "date": "2026-09-29",
+      "type": "Ride",
+      "name": "IntervalCoach - Endurance Build",
+      "interval_summary": [
+        "1x 1h9m 227w",
+        "1x 16m17s 225w",
+        "1x 11m8s 425w",
+        "1x 3m50s 4w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "4179s@227w84rpm",
+          "duration_secs": 4179,
+          "avg_power": 227,
+          "max_power": 470,
+          "avg_cadence": 84.058945,
+          "zone": 2,
+          "training_load": 40.319397
+        },
+        {
+          "type": "WORK",
+          "label": "977s@225w83rpm",
+          "duration_secs": 977,
+          "avg_power": 225,
+          "max_power": 587,
+          "avg_cadence": 82.99075,
+          "zone": 2,
+          "training_load": 7.300431
+        },
+        {
+          "type": "WORK",
+          "label": "668s@425w85rpm",
+          "duration_secs": 668,
+          "avg_power": 425,
+          "max_power": 584,
+          "avg_cadence": 84.952095,
+          "zone": 5,
+          "training_load": 21.343643
+        },
+        {
+          "type": "WORK",
+          "label": "230s@4w11rpm",
+          "duration_secs": 230,
+          "avg_power": 4,
+          "max_power": 107,
+          "avg_cadence": 10.691304,
+          "zone": 1,
+          "training_load": 1.153993
         }
       ]
     }
