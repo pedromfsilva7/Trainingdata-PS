@@ -1,58 +1,10 @@
 {
-  "generated_at": "2026-10-09T21:19:01.098755",
+  "generated_at": "2026-10-10T01:07:39.429150",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i190277604",
-      "date": "2026-09-25",
-      "type": "Ride",
-      "name": "IntervalCoach - Progressive Aerobic",
-      "interval_summary": [
-        "2x 1h 201w",
-        "1x 1h49m 159w"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "3619s@201w82rpm",
-          "duration_secs": 3620,
-          "avg_power": 210,
-          "max_power": 412,
-          "avg_cadence": 86.079124,
-          "zone": 1,
-          "training_load": 29.719002
-        },
-        {
-          "type": "WORK",
-          "label": "3619s@201w82rpm",
-          "duration_secs": 3618,
-          "avg_power": 192,
-          "max_power": 326,
-          "avg_cadence": 77.86372,
-          "zone": 1,
-          "training_load": 28.371378
-        },
-        {
-          "type": "WORK",
-          "label": "6566s@159w69rpm",
-          "duration_secs": 6566,
-          "avg_power": 159,
-          "max_power": 621,
-          "avg_cadence": 69.29621,
-          "zone": 1,
-          "training_load": 23.2854
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 2,
-          "zone": 1,
-          "training_load": 0.0012086806
-        }
-      ]
-    },
     {
       "activity_id": "i190777707",
       "date": "2026-09-26",
