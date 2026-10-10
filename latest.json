@@ -62,15 +62,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 2.2,
-      "total_training_formatted": "2h11m",
-      "total_activities": 1,
+      "total_training_hours": 5.48,
+      "total_training_formatted": "5h28m",
+      "total_activities": 2,
       "total_tss": 124
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-10T13:43:04.924872",
+    "last_updated": "2026-10-10T18:03:12.957374",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -163,9 +163,21 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 2.2,
-    "total_activities": 1,
+    "total_duration_decimal_hours": 5.48,
+    "total_activities": 2,
     "by_activity_type": {
+      "MountainBikeRide": {
+        "duration_decimal_hours": 3.28,
+        "count": 1,
+        "tss": 0,
+        "distance_km": 55.8,
+        "display": {
+          "distance": {
+            "value": 55.8,
+            "unit": "km"
+          }
+        }
+      },
       "Ride": {
         "duration_decimal_hours": 2.2,
         "count": 1,
@@ -185,8 +197,8 @@
       "ctl": 75.71,
       "atl": 37.59,
       "tsb": 38.12,
-      "ramp_rate": -9.24,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ramp_rate": -10.74,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 383.7,
@@ -543,11 +555,11 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.14,
+    "consistency_index": 0.29,
     "consistency_details": {
       "planned_days": 7,
-      "completed_days": 1,
-      "matched_days": 1,
+      "completed_days": 2,
+      "matched_days": 2,
       "planned_dates": [
         "2026-10-04",
         "2026-10-05",
@@ -558,7 +570,8 @@
         "2026-10-10"
       ],
       "completed_dates": [
-        "2026-10-04"
+        "2026-10-04",
+        "2026-10-10"
       ]
     },
     "phase_detection": {
@@ -573,14 +586,14 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.29,
-          "hard_sessions_planned": 2,
+          "planned_tss_delta": 0.67,
+          "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 2,
+          "current_week_hard_days_total": 1,
           "race_proximity": null,
-          "next_week_load": null,
-          "plan_coverage_current_week": 0.25,
-          "plan_coverage_next_week": 0.0
+          "next_week_load": 0.7,
+          "plan_coverage_current_week": 0.12,
+          "plan_coverage_next_week": 0.75
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -613,12 +626,12 @@
     "p_max": 1168,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-10T13:43:04.923692",
+    "calculation_timestamp": "2026-10-10T18:03:12.956224",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
-      "activities_7d": 1,
-      "activities_28d": 23,
+      "activities_7d": 2,
+      "activities_28d": 24,
       "planned_workouts_7d": 7,
       "ftp_history_days": {
         "indoor": 0,
@@ -627,6 +640,161 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i195813880",
+      "date": "2026-10-10T09:01:00",
+      "type": "MountainBikeRide",
+      "name": "IntervalCoach - Endurance + Tempo Pushes",
+      "duration_hours": 3.28,
+      "distance_km": 55.83,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": 16.9,
+      "avg_speed_unit": "KPH",
+      "max_speed": 47.7,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": 20.821928,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "wind_speed_unit": "KMH",
+      "work_kj": null,
+      "calories": 1596,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": 644.0,
+      "display": {
+        "distance": {
+          "value": 55.83,
+          "unit": "km"
+        },
+        "elevation": {
+          "value": 644,
+          "unit": "m"
+        },
+        "avg_speed": {
+          "value": 16.9,
+          "unit": "km/h"
+        },
+        "max_speed": {
+          "value": 47.7,
+          "unit": "km/h"
+        }
+      },
+      "feel": null,
+      "rpe": null,
+      "effort_response": null,
+      "zone_distribution": null,
+      "has_intervals": false,
+      "has_dfa": false,
+      "terrain_summary": {
+        "source": "activity_streams",
+        "total_distance_km": 56.8,
+        "total_elevation_m": 682,
+        "elevation_per_km": 12.0,
+        "course_character": "rolling",
+        "max_grade_pct": 11.5,
+        "grade_distribution": {
+          "flat_pct": 46.4,
+          "gentle_pct": 30.5,
+          "moderate_pct": 17.0,
+          "steep_pct": 6.1
+        },
+        "start_coords": [
+          41.69341,
+          -8.82472
+        ],
+        "climbs": [
+          {
+            "position_km": 18.3,
+            "distance_km": 3.3,
+            "elevation_m": 114,
+            "avg_gradient_pct": 3.5,
+            "start_coords": [
+              41.68628,
+              -8.71441
+            ],
+            "end_coords": [
+              41.67077,
+              -8.70036
+            ],
+            "display": {
+              "position": {
+                "value": 18.3,
+                "unit": "km"
+              },
+              "distance": {
+                "value": 3.3,
+                "unit": "km"
+              },
+              "elevation": {
+                "value": 114,
+                "unit": "m"
+              }
+            },
+            "max_gradient_pct": 12.1,
+            "category": "Cat 4"
+          }
+        ],
+        "descents": [
+          {
+            "position_km": 21.6,
+            "distance_km": 1.5,
+            "elevation_m": -88,
+            "avg_gradient_pct": -6.0,
+            "start_coords": [
+              41.67077,
+              -8.70036
+            ],
+            "end_coords": [
+              41.66125,
+              -8.70422
+            ],
+            "display": {
+              "position": {
+                "value": 21.6,
+                "unit": "km"
+              },
+              "distance": {
+                "value": 1.5,
+                "unit": "km"
+              },
+              "elevation": {
+                "value": -88,
+                "unit": "m"
+              }
+            }
+          }
+        ],
+        "display": {
+          "total_distance": {
+            "value": 56.8,
+            "unit": "km"
+          },
+          "total_elevation": {
+            "value": 682,
+            "unit": "m"
+          },
+          "elevation_per_distance": {
+            "value": 12,
+            "unit": "m/km"
+          }
+        }
+      },
+      "weather_status": "unavailable",
+      "description": "\ud83c\udfaf LeCoach.app Workout Score: Different than planned\n\u23f1 Duration: 197m / 145m planned"
+    },
     {
       "id": "i193485872",
       "date": "2026-10-04T12:30:01",
@@ -7163,33 +7331,103 @@
       "description": "Warmup\n- Hey Pedromfsilva7! Big endurance ride ahead. 15m ramp 45-75% 85rpm\n\nMain Set\n5x\n- Endurance 88rpm 15m 65-75% 88rpm\n- Tempo 90rpm 5m 76-82% 90rpm\n\nRecovery\n- Endurance 6 88rpm 15m 65-75% 88rpm\n- Endurance 5m 60-70%\n\nCooldown\n- Awesome ride, enjoy the recovery spin. 10m ramp 65-45%\n\n[Weekly Plan - Build \u00b7 type:enduranceWithTempo]"
     },
     {
-      "id": 141241267,
-      "date": "2026-10-11",
-      "name": "IntervalCoach - Endurance Aerobic",
+      "id": 143228806,
+      "date": "2026-10-12",
+      "name": "IntervalCoach - Lower Body Strength",
       "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 110,
-      "duration_hours": 2.37,
-      "duration_formatted": "2h22m",
+      "sport_type": "WeightTraining",
+      "planned_tss": 9,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey Pedromfsilva7! A steady aerobic ride awaits 15m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 85rpm 15m 65-70% 85rpm\n- Steady 88rpm 102m 70% 88rpm\n\nCooldown\n- Excellent endurance work, enjoy the easy spin 10m ramp 65-45%\n\n[Weekly Plan - Build \u00b7 type:longAerobic]"
+      "description": "Lower Body Strength\n\nLeg strength for cycling power and running economy\n\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]\n2. Romanian Deadlift: 3 sets \u00d7 10 reps (Hinge at hips, slight knee bend) [Rest: 60 sec]\n3. Walking Lunges: 3 sets \u00d7 10 reps each leg (Keep torso upright, knee tracks over toe) [Rest: 45 sec]\n4. Step-ups: 3 sets \u00d7 10 reps each leg (Use bench or box, drive through heel) [Rest: 45 sec]\n5. Calf Raises: 3 sets \u00d7 15 reps (Full range of motion, hold at top) [Rest: 30 sec]\n6. Single Leg Glute Bridge: 3 sets \u00d7 10 reps each leg (Keep hips level throughout) [Rest: 30 sec]\n\nBuild phase: increase weight, lower reps (6-10) for strength gains.\n\n[Duration: ~45 min]\n\n[Weekly Plan - Build \u00b7 type:lower-body-strength]"
+    },
+    {
+      "id": 143228837,
+      "date": "2026-10-13",
+      "name": "IntervalCoach - Endurance",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 101,
+      "duration_hours": 2.2,
+      "duration_formatted": "2h12m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- 0^ Hey Pedromfsilva7! Long endurance ride awaits 15m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 85rpm 27m 65% 85rpm\n- Build 88rpm 27m 67% 88rpm\n- Upper 90rpm 27m 70-74% 90rpm\n- Cruise 88rpm 26m 70-74% 88rpm\n\nCooldown\n- 0^ Awesome work, Pedromfsilva7! Recover well 10m ramp 65-45%\n\n[Weekly Plan - Build \u00b7 type:endurance]"
+    },
+    {
+      "id": 143228838,
+      "date": "2026-10-14",
+      "name": "IntervalCoach - Steady Tempo",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 134,
+      "duration_hours": 2.59,
+      "duration_formatted": "2h35m14s",
+      "workout_summary": "11m @240W | 53s @324W | 26s @220W | 53s @324W | 26s @220W | 35m @280W | 3\u00d718m @316W / 4m24s rec | 8m48s @220W",
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- 0^ Hey Pedromfsilva7! Steady tempo awaits you 11m ramp 45-75% 85rpm\n- Primer 1 53s 81% 90rpm\n- Primer recovery 26s 55%\n- Primer 2 53s 81% 90rpm\n- Primer recovery 26s 55%\n\nMain Set\n- Endurance 85rpm 35m 65-75% 85rpm\n- Tempo 1 90rpm 18m 76-82% 90rpm\n- Recovery 264s 55%\n- Tempo 2 90rpm 18m 76-82% 90rpm\n- Recovery 264s 55%\n- Tempo 3 90rpm 18m 76-82% 90rpm\n- Endurance 85rpm 35m 65-75% 85rpm\n\nCooldown\n- 0^ Well done, Pedromfsilva7! Recover well 528s ramp 65-45%\n\n[Weekly Plan - Build \u00b7 type:tempoSteady]"
+    },
+    {
+      "id": 143228846,
+      "date": "2026-10-15",
+      "name": "IntervalCoach - Lower Body Strength",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 9,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Lower Body Strength\n\nLeg strength for cycling power and running economy\n\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]\n2. Romanian Deadlift: 3 sets \u00d7 10 reps (Hinge at hips, slight knee bend) [Rest: 60 sec]\n3. Walking Lunges: 3 sets \u00d7 10 reps each leg (Keep torso upright, knee tracks over toe) [Rest: 45 sec]\n4. Step-ups: 3 sets \u00d7 10 reps each leg (Use bench or box, drive through heel) [Rest: 45 sec]\n5. Calf Raises: 3 sets \u00d7 15 reps (Full range of motion, hold at top) [Rest: 30 sec]\n6. Single Leg Glute Bridge: 3 sets \u00d7 10 reps each leg (Keep hips level throughout) [Rest: 30 sec]\n\nBuild phase: increase weight, lower reps (6-10) for strength gains.\n\n[Duration: ~45 min]\n\n[Weekly Plan - Build \u00b7 type:lower-body-strength]"
+    },
+    {
+      "id": 143228860,
+      "date": "2026-10-16",
+      "name": "IntervalCoach - Endurance Cruise",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 91,
+      "duration_hours": 2.25,
+      "duration_formatted": "2h15m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- 0^ Hey Pedromfsilva7! Long Fat Max ride today 15m ramp 45-75% 85rpm\n\nMain Set\n- Low 85rpm 37m 63% 85rpm\n- Settle In 85rpm 37m 63-68% 85rpm\n- Cruise 88rpm 36m 63-68% 88rpm\n\nCooldown\n- 0^ Awesome work, Pedromfsilva7. Recover well! 10m ramp 65-45%\n\n[Weekly Plan - Build \u00b7 type:enduranceFatMax]"
+    },
+    {
+      "id": 143228871,
+      "date": "2026-10-17",
+      "name": "IntervalCoach - Endurance with Pickups",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 108,
+      "duration_hours": 2.26,
+      "duration_formatted": "2h15m30s",
+      "workout_summary": "15m @240W | 7\u00d712m @280W / 1m30s rec | 16m @280W | 10m @220W",
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- 0^ Hey Pedromfsilva7, endurance with pickups! 15m ramp 45-75% 85rpm\n\nMain Set\n7x\n- Endurance 88rpm 12m 65-75% 88rpm\n- Pickup 92rpm 90s 76-82% 92rpm\n\nRecovery\n- Endurance 88rpm 16m 65-75% 88rpm\n\nCooldown\n- 0^ Great ride, enjoy the spin down 10m ramp 65-45%\n\n[Weekly Plan - Build \u00b7 type:enduranceWithPickups]"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 2,
-    "success": 1,
-    "patternA": 1,
-    "patternB": 0,
-    "bail_no_workout_doc": 0,
-    "bail_no_match": 1
+    "attempted": 5,
+    "success": 3,
+    "patternA": 2,
+    "patternB": 1,
+    "bail_no_workout_doc": 2,
+    "bail_no_match": 2
   },
   "weekly_summary": {
-    "total_training_hours": 2.2,
-    "total_training_formatted": "2h11m",
+    "total_training_hours": 5.48,
+    "total_training_formatted": "5h28m",
     "total_tss": 124,
-    "activities_count": 1,
+    "activities_count": 2,
     "avg_hrv": null,
     "avg_resting_hr": null
   },
