@@ -1,28 +1,10 @@
 {
-  "generated_at": "2026-10-10T21:44:55.955666",
+  "generated_at": "2026-10-11T00:32:16.359980",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i190777707",
-      "date": "2026-09-26",
-      "type": "Ride",
-      "name": "IntervalCoach - Sweet Spot Intervals",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 12752,
-          "avg_power": 184,
-          "max_power": 532,
-          "avg_cadence": 72.76259,
-          "zone": 1,
-          "training_load": 97.94773
-        }
-      ]
-    },
     {
       "activity_id": "i190827200",
       "date": "2026-09-27",
