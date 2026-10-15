@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-14T22:07:05.110986",
+    "last_updated": "2026-10-15T00:32:05.915182",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 47.6
+        "value": 36.4
       }
     },
     "signal_summary": {
@@ -156,7 +156,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-09-13",
-    "age_days": 31,
+    "age_days": 32,
     "total_months": 31,
     "history_confidence": "high"
   },
@@ -182,17 +182,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 68.83,
-      "atl": 21.23,
-      "tsb": 47.6,
-      "ramp_rate": -12.48,
+      "ctl": 70.29,
+      "atl": 33.86,
+      "tsb": 36.43,
+      "ramp_rate": -9.11,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 382.2,
-      "w_prime": 32263,
-      "w_prime_kj": 32.3,
-      "p_max": 1163,
+      "eftp": 381.8,
+      "w_prime": 32230,
+      "w_prime_kj": 32.2,
+      "p_max": 1162,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -366,12 +366,12 @@
       "power_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-09-17",
-          "end": "2026-10-14"
+          "start": "2026-09-18",
+          "end": "2026-10-15"
         },
         "previous_window": {
-          "start": "2026-08-20",
-          "end": "2026-09-16"
+          "start": "2026-08-21",
+          "end": "2026-09-17"
         },
         "anchors": {
           "5s": {
@@ -406,12 +406,12 @@
       "hr_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-09-17",
-          "end": "2026-10-14"
+          "start": "2026-09-18",
+          "end": "2026-10-15"
         },
         "previous_window": {
-          "start": "2026-08-20",
-          "end": "2026-09-16"
+          "start": "2026-08-21",
+          "end": "2026-09-17"
         },
         "anchors": null,
         "rotation_index": null,
@@ -420,8 +420,8 @@
       "sustainability_profile": {
         "window": {
           "days": 42,
-          "start": "2026-09-03",
-          "end": "2026-10-14"
+          "start": "2026-09-04",
+          "end": "2026-10-15"
         },
         "weight_kg": 67.0,
         "weight_source": "athlete_profile",
@@ -435,9 +435,9 @@
               "source": "observed_outdoor",
               "coggan_watts": 424,
               "coggan_wpkg": 6.33,
-              "cp_model_watts": 508,
-              "cp_model_wpkg": 7.58,
-              "model_divergence_pct": -6.3
+              "cp_model_watts": 507,
+              "cp_model_wpkg": 7.57,
+              "model_divergence_pct": -6.1
             },
             "600s": {
               "actual_watts": 428,
@@ -514,8 +514,8 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 400,
-          "w_prime_used": 32263,
-          "ftp_staleness_days": 107,
+          "w_prime_used": 32230,
+          "ftp_staleness_days": 108,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
       },
@@ -527,12 +527,12 @@
       "completed_days": 1,
       "matched_days": 1,
       "planned_dates": [
-        "2026-10-08",
         "2026-10-09",
         "2026-10-10",
         "2026-10-12",
         "2026-10-13",
-        "2026-10-14"
+        "2026-10-14",
+        "2026-10-15"
       ],
       "completed_dates": [
         "2026-10-10"
@@ -550,13 +550,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.74,
-          "hard_sessions_planned": 5,
+          "planned_tss_delta": 1.52,
+          "hard_sessions_planned": 4,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 5,
+          "current_week_hard_days_total": 4,
           "race_proximity": null,
           "next_week_load": 1.6,
-          "plan_coverage_current_week": 1.0,
+          "plan_coverage_current_week": 0.8,
           "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
@@ -584,13 +584,13 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 382.2,
-    "w_prime": 32263,
-    "w_prime_kj": 32.3,
-    "p_max": 1163,
+    "eftp": 381.8,
+    "w_prime": 32230,
+    "w_prime_kj": 32.2,
+    "p_max": 1162,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-14T22:07:05.110113",
+    "calculation_timestamp": "2026-10-15T00:32:05.914343",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
@@ -1413,7 +1413,7 @@
           "z7_time": 0
         }
       },
-      "has_intervals": true,
+      "has_intervals": false,
       "has_dfa": false,
       "terrain_summary": {
         "source": "activity_streams",
@@ -1518,7 +1518,7 @@
           "z7_time": 0
         }
       },
-      "has_intervals": true,
+      "has_intervals": false,
       "has_dfa": false,
       "terrain_summary": {
         "source": "activity_streams",
@@ -5874,48 +5874,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-10-08",
-      "weight_kg": null,
-      "display": {
-        "weight": null
-      },
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
-      "spO2": null,
-      "blood_glucose": null,
-      "systolic": null,
-      "diastolic": null,
-      "baevsky_si": null,
-      "lactate": null,
-      "respiration": null,
-      "body_fat_pct": null,
-      "abdomen_cm": null,
-      "steps": null,
-      "hydration_volume_l": null,
-      "kcal_consumed": null,
-      "carbohydrates_g": null,
-      "protein_g": null,
-      "fat_g": null,
-      "menstrual_phase": null,
-      "menstrual_phase_predicted": null,
-      "readiness": null
-    },
-    {
       "date": "2026-10-09",
       "weight_kg": null,
       "display": {
@@ -6166,23 +6124,51 @@
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
       "readiness": null
+    },
+    {
+      "date": "2026-10-15",
+      "weight_kg": null,
+      "display": {
+        "weight": null
+      },
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null,
+      "fatigue": null,
+      "soreness": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "hydration": null,
+      "spO2": null,
+      "blood_glucose": null,
+      "systolic": null,
+      "diastolic": null,
+      "baevsky_si": null,
+      "lactate": null,
+      "respiration": null,
+      "body_fat_pct": null,
+      "abdomen_cm": null,
+      "steps": null,
+      "hydration_volume_l": null,
+      "kcal_consumed": null,
+      "carbohydrates_g": null,
+      "protein_g": null,
+      "fat_g": null,
+      "menstrual_phase": null,
+      "menstrual_phase_predicted": null,
+      "readiness": null
     }
   ],
   "planned_workouts": [
-    {
-      "id": 143228838,
-      "date": "2026-10-14",
-      "name": "IntervalCoach - Steady Tempo",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 134,
-      "duration_hours": 2.59,
-      "duration_formatted": "2h35m14s",
-      "workout_summary": "11m @240W | 53s @324W | 26s @220W | 53s @324W | 26s @220W | 35m @280W | 3\u00d718m @316W / 4m24s rec | 8m48s @220W",
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- 0^ Hey Pedromfsilva7! Steady tempo awaits you 11m ramp 45-75% 85rpm\n- Primer 1 53s 81% 90rpm\n- Primer recovery 26s 55%\n- Primer 2 53s 81% 90rpm\n- Primer recovery 26s 55%\n\nMain Set\n- Endurance 85rpm 35m 65-75% 85rpm\n- Tempo 1 90rpm 18m 76-82% 90rpm\n- Recovery 264s 55%\n- Tempo 2 90rpm 18m 76-82% 90rpm\n- Recovery 264s 55%\n- Tempo 3 90rpm 18m 76-82% 90rpm\n- Endurance 85rpm 35m 65-75% 85rpm\n\nCooldown\n- 0^ Well done, Pedromfsilva7! Recover well 528s ramp 65-45%\n\n[Weekly Plan - Build \u00b7 type:tempoSteady]"
-    },
     {
       "id": 143228846,
       "date": "2026-10-15",
@@ -6293,7 +6279,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description_preview": "Lower Body Strength\nLeg strength for cycling power and running economy\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]"
+      "description": "Lower Body Strength\n\nLeg strength for cycling power and running economy\n\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]\n2. Romanian Deadlift: 3 sets \u00d7 10 reps (Hinge at hips, slight knee bend) [Rest: 60 sec]\n3. Walking Lunges: 3 sets \u00d7 10 reps each leg (Keep torso upright, knee tracks over toe) [Rest: 45 sec]\n4. Step-ups: 3 sets \u00d7 10 reps each leg (Use bench or box, drive through heel) [Rest: 45 sec]\n5. Calf Raises: 3 sets \u00d7 15 reps (Full range of motion, hold at top) [Rest: 30 sec]\n6. Single Leg Glute Bridge: 3 sets \u00d7 10 reps each leg (Keep hips level throughout) [Rest: 30 sec]\n\nBuild phase: increase weight, lower reps (6-10) for strength gains.\n\n[Duration: ~45 min]\n\n[Weekly Plan - Build \u00b7 type:lower-body-strength]"
     },
     {
       "id": 143390109,
@@ -6745,10 +6731,10 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 31,
-    "success": 19,
+    "attempted": 30,
+    "success": 18,
     "patternA": 17,
-    "patternB": 2,
+    "patternB": 1,
     "bail_no_workout_doc": 11,
     "bail_no_match": 12
   },
