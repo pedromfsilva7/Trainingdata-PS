@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-25T01:16:57.914410",
+    "last_updated": "2026-10-25T06:34:35.247237",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 38.8
+        "value": 48.6
       }
     },
     "signal_summary": {
@@ -169,10 +169,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 55.41,
-      "atl": 16.64,
-      "tsb": 38.77,
-      "ramp_rate": -7.17,
+      "ctl": 52.97,
+      "atl": 4.41,
+      "tsb": 48.56,
+      "ramp_rate": -9.61,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -541,9 +541,9 @@
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 1,
           "race_proximity": null,
-          "next_week_load": 1.93,
+          "next_week_load": 2.04,
           "plan_coverage_current_week": 0.25,
-          "plan_coverage_next_week": 1.5
+          "plan_coverage_next_week": 1.75
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -576,7 +576,7 @@
     "p_max": 1150,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-25T01:16:57.913282",
+    "calculation_timestamp": "2026-10-25T06:34:35.245237",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
@@ -3182,18 +3182,18 @@
       "description": "Warmup\n- 0^ Hey Pedromfsilva7! Cadence pyramid time 12m ramp 45-75% 85rpm\n\nMain Set\n9x\n- Endurance 85rpm 364s 65-75% 85rpm\n- Pickup 95rpm 24s 86-94% 95rpm\n\nRecovery\n- Endurance 85rpm 340s 65-75% 85rpm\n- Recovery 194s 76%\n- Recovery 194s 84%\n- Recovery 194s 91%\n- Recovery 194s 96%\n- Recovery 194s 100%\n- Recovery 194s 96%\n- Recovery 194s 91%\n- Recovery 194s 84%\n- Recovery 194s 76%\n\n9x\n- Endurance 85rpm 364s 65-75% 85rpm\n- Pickup 95rpm 24s 86-94% 95rpm\n\nRecovery\n- Endurance 85rpm 388s 65-75% 85rpm\n\nCooldown\n- 0^ Great ride, enjoy the recovery spin 485s ramp 65-45%\n\n[Weekly Plan - Build \u00b7 type:cadencePyramid]"
     },
     {
-      "id": 143390125,
+      "id": 147909217,
       "date": "2026-10-26",
-      "name": "IntervalCoach - Core Stability",
+      "name": "IntervalCoach - Active Recovery",
       "type": "WORKOUT",
-      "sport_type": "WeightTraining",
-      "planned_tss": 9,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
+      "sport_type": "Ride",
+      "planned_tss": 26,
+      "duration_hours": 1.08,
+      "duration_formatted": "1h5m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Core Stability\n\nCore exercises to improve stability, posture, and power transfer\n\n1. Plank: 5 sets \u00d7 45-60 sec (Keep body in straight line, engage glutes) [Rest: 30 sec]\n2. Side Plank: 3 sets \u00d7 30 sec each side (Stack feet or stagger for stability) [Rest: 15 sec]\n3. Dead Bug: 5 sets \u00d7 10 reps each side (Keep lower back pressed to floor) [Rest: 30 sec]\n4. Bird Dog: 5 sets \u00d7 10 reps each side (Extend opposite arm and leg, hold 2s) [Rest: 30 sec]\n5. Glute Bridge: 5 sets \u00d7 15 reps (Squeeze glutes at top, hold 2s) [Rest: 30 sec]\n6. Pallof Press: 5 sets \u00d7 10 reps each side (Band at chest height, press and hold, resist rotation) [Rest: 30 sec]\n\n[Duration: ~45 min]\n\n[Weekly Plan - Recovery \u00b7 type:core-stability]"
+      "description": "Warmup\n- Hey Pedromfsilva7! Easy active recovery ride ahead 10m ramp 45-55% 85rpm\n\nMain Set\n- Easy Spin 80rpm 24m 46-50% 80rpm intensity=recovery\n- Loosen Up 85rpm 24m 50% 85rpm intensity=recovery\n\nCooldown\n- Lovely ride, enjoy feeling refreshed 7m ramp 55-45%\n\n[Weekly Plan - Recovery \u00b7 type:activeRecovery]"
     },
     {
       "id": 143390132,
@@ -3222,6 +3222,20 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description": "Warmup\n- 0^ Hey Pedromfsilva7! Long aerobic ride ahead 15m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 85rpm 13m 65-70% 85rpm\n- Steady 88rpm 72m 70% 88rpm\n\nCooldown\n- 0^ Excellent work, Pedromfsilva7. Enjoy the recovery 10m ramp 65-45%\n\n[Weekly Plan - Recovery \u00b7 type:longAerobic]"
+    },
+    {
+      "id": 147909251,
+      "date": "2026-10-29",
+      "name": "IntervalCoach - Core Stability",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 9,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Core Stability\n\nCore exercises to improve stability, posture, and power transfer\n\n1. Plank: 5 sets \u00d7 45-60 sec (Keep body in straight line, engage glutes) [Rest: 30 sec]\n2. Side Plank: 3 sets \u00d7 30 sec each side (Stack feet or stagger for stability) [Rest: 15 sec]\n3. Dead Bug: 5 sets \u00d7 10 reps each side (Keep lower back pressed to floor) [Rest: 30 sec]\n4. Bird Dog: 5 sets \u00d7 10 reps each side (Extend opposite arm and leg, hold 2s) [Rest: 30 sec]\n5. Glute Bridge: 5 sets \u00d7 15 reps (Squeeze glutes at top, hold 2s) [Rest: 30 sec]\n6. Pallof Press: 5 sets \u00d7 10 reps each side (Band at chest height, press and hold, resist rotation) [Rest: 30 sec]\n\n[Duration: ~45 min]\n[Exercises \u00b7 plank 5x45-60 sec rest 30 sec \u00b7 sidePlank 3x30 sec side rest 15 sec \u00b7 deadBug 5x10 side rest 30 sec \u00b7 birdDog 5x10 side rest 30 sec \u00b7 gluteBridge 5x15 rest 30 sec \u00b7 pallofPress 5x10 side rest 30 sec]\n\n[Weekly Plan - Recovery \u00b7 type:core-stability]"
     },
     {
       "id": 143390149,
@@ -3551,18 +3565,17 @@
       "start_time": "09:00"
     },
     {
-      "id": 143390575,
+      "id": 147909314,
       "date": "2026-11-23",
-      "name": "IntervalCoach - Core Stability",
+      "name": "IntervalCoach - Recovery Drills",
       "type": "WORKOUT",
-      "sport_type": "WeightTraining",
-      "planned_tss": 9,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
-      "workout_summary": null,
+      "sport_type": "Ride",
+      "planned_tss": 28,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": "9m @200W | 5\u00d74m @216W / 4m rec | 5m @216W | 6m @200W",
       "has_terrain": false,
-      "start_time": "09:00",
-      "description_preview": "Core Stability\nCore exercises to improve stability, posture, and power transfer\n1. Plank: 5 sets \u00d7 45-60 sec (Keep body in straight line, engage glutes) [Rest: 30 sec]"
+      "start_time": "09:00"
     },
     {
       "id": 143390580,
@@ -3590,6 +3603,20 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description_preview": "Warmup\n- 0^ Hey Pedromfsilva7! Long endurance ride awaits you 15m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
+      "id": 147909348,
+      "date": "2026-11-26",
+      "name": "IntervalCoach - Core Stability",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 9,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Core Stability\nCore exercises to improve stability, posture, and power transfer\n1. Plank: 5 sets \u00d7 45-60 sec (Keep body in straight line, engage glutes) [Rest: 30 sec]"
     },
     {
       "id": 143390588,
@@ -3730,12 +3757,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 31,
-    "success": 17,
-    "patternA": 16,
+    "attempted": 33,
+    "success": 18,
+    "patternA": 17,
     "patternB": 1,
     "bail_no_workout_doc": 10,
-    "bail_no_match": 14
+    "bail_no_match": 15
   },
   "weekly_summary": {
     "total_training_hours": 0.0,
