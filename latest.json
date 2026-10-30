@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-29T20:29:51.271238",
+    "last_updated": "2026-10-30T00:13:57.700352",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 45.7
+        "value": 43.8
       }
     },
     "signal_summary": {
@@ -169,17 +169,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 48.16,
-      "atl": 2.49,
-      "tsb": 45.67,
-      "ramp_rate": -8.73,
+      "ctl": 47.03,
+      "atl": 3.2,
+      "tsb": 43.83,
+      "ramp_rate": -8.53,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 376.5,
-      "w_prime": 31782,
+      "eftp": 376.1,
+      "w_prime": 31750,
       "w_prime_kj": 31.8,
-      "p_max": 1146,
+      "p_max": 1145,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -353,12 +353,12 @@
       "power_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-10-02",
-          "end": "2026-10-29"
+          "start": "2026-10-03",
+          "end": "2026-10-30"
         },
         "previous_window": {
-          "start": "2026-09-04",
-          "end": "2026-10-01"
+          "start": "2026-09-05",
+          "end": "2026-10-02"
         },
         "anchors": {
           "5s": {
@@ -393,12 +393,12 @@
       "hr_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-10-02",
-          "end": "2026-10-29"
+          "start": "2026-10-03",
+          "end": "2026-10-30"
         },
         "previous_window": {
-          "start": "2026-09-04",
-          "end": "2026-10-01"
+          "start": "2026-09-05",
+          "end": "2026-10-02"
         },
         "anchors": null,
         "rotation_index": null,
@@ -407,8 +407,8 @@
       "sustainability_profile": {
         "window": {
           "days": 42,
-          "start": "2026-09-18",
-          "end": "2026-10-29"
+          "start": "2026-09-19",
+          "end": "2026-10-30"
         },
         "weight_kg": 67.0,
         "weight_source": "athlete_profile",
@@ -463,8 +463,8 @@
               "model_divergence_pct": -11.2
             },
             "3600s": {
-              "actual_watts": 323,
-              "actual_wpkg": 4.82,
+              "actual_watts": 319,
+              "actual_wpkg": 4.76,
               "actual_hr": null,
               "pct_lthr": null,
               "source": "observed_outdoor",
@@ -472,11 +472,11 @@
               "coggan_wpkg": 5.13,
               "cp_model_watts": 409,
               "cp_model_wpkg": 6.1,
-              "model_divergence_pct": -21.0
+              "model_divergence_pct": -22.0
             },
             "5400s": {
-              "actual_watts": 314,
-              "actual_wpkg": 4.69,
+              "actual_watts": 301,
+              "actual_wpkg": 4.49,
               "actual_hr": null,
               "pct_lthr": null,
               "source": "observed_outdoor",
@@ -484,11 +484,11 @@
               "coggan_wpkg": 4.9,
               "cp_model_watts": 406,
               "cp_model_wpkg": 6.06,
-              "model_divergence_pct": -22.7
+              "model_divergence_pct": -25.9
             },
             "7200s": {
-              "actual_watts": 300,
-              "actual_wpkg": 4.48,
+              "actual_watts": 292,
+              "actual_wpkg": 4.36,
               "actual_hr": null,
               "pct_lthr": null,
               "source": "observed_outdoor",
@@ -496,13 +496,13 @@
               "coggan_wpkg": 4.66,
               "cp_model_watts": 404,
               "cp_model_wpkg": 6.03,
-              "model_divergence_pct": -25.7
+              "model_divergence_pct": -27.7
             }
           },
           "coverage_ratio": 1.0,
           "ftp_used": 400,
-          "w_prime_used": 31782,
-          "ftp_staleness_days": 122,
+          "w_prime_used": 31750,
+          "ftp_staleness_days": 123,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
       },
@@ -514,13 +514,13 @@
       "completed_days": 0,
       "matched_days": 0,
       "planned_dates": [
-        "2026-10-23",
         "2026-10-24",
         "2026-10-25",
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
       "completed_dates": []
     },
@@ -539,12 +539,12 @@
         },
         "stream_2": {
           "planned_tss_delta": null,
-          "hard_sessions_planned": 4,
+          "hard_sessions_planned": 3,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 4,
+          "current_week_hard_days_total": 3,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 4.0,
+          "plan_coverage_current_week": 3.0,
           "plan_coverage_next_week": 7.0
         },
         "data_quality": "good",
@@ -574,13 +574,13 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 376.5,
-    "w_prime": 31782,
+    "eftp": 376.1,
+    "w_prime": 31750,
     "w_prime_kj": 31.8,
-    "p_max": 1146,
+    "p_max": 1145,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-29T20:29:51.270145",
+    "calculation_timestamp": "2026-10-30T00:13:57.699761",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
@@ -1080,48 +1080,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-10-23",
-      "weight_kg": null,
-      "display": {
-        "weight": null
-      },
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
-      "spO2": null,
-      "blood_glucose": null,
-      "systolic": null,
-      "diastolic": null,
-      "baevsky_si": null,
-      "lactate": null,
-      "respiration": null,
-      "body_fat_pct": null,
-      "abdomen_cm": null,
-      "steps": null,
-      "hydration_volume_l": null,
-      "kcal_consumed": null,
-      "carbohydrates_g": null,
-      "protein_g": null,
-      "fat_g": null,
-      "menstrual_phase": null,
-      "menstrual_phase_predicted": null,
-      "readiness": null
-    },
-    {
       "date": "2026-10-24",
       "weight_kg": null,
       "display": {
@@ -1372,23 +1330,51 @@
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
       "readiness": null
+    },
+    {
+      "date": "2026-10-30",
+      "weight_kg": null,
+      "display": {
+        "weight": null
+      },
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null,
+      "fatigue": null,
+      "soreness": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "hydration": null,
+      "spO2": null,
+      "blood_glucose": null,
+      "systolic": null,
+      "diastolic": null,
+      "baevsky_si": null,
+      "lactate": null,
+      "respiration": null,
+      "body_fat_pct": null,
+      "abdomen_cm": null,
+      "steps": null,
+      "hydration_volume_l": null,
+      "kcal_consumed": null,
+      "carbohydrates_g": null,
+      "protein_g": null,
+      "fat_g": null,
+      "menstrual_phase": null,
+      "menstrual_phase_predicted": null,
+      "readiness": null
     }
   ],
   "planned_workouts": [
-    {
-      "id": 147909251,
-      "date": "2026-10-29",
-      "name": "IntervalCoach - Core Stability",
-      "type": "WORKOUT",
-      "sport_type": "WeightTraining",
-      "planned_tss": 9,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Core Stability\n\nCore exercises to improve stability, posture, and power transfer\n\n1. Plank: 5 sets \u00d7 45-60 sec (Keep body in straight line, engage glutes) [Rest: 30 sec]\n2. Side Plank: 3 sets \u00d7 30 sec each side (Stack feet or stagger for stability) [Rest: 15 sec]\n3. Dead Bug: 5 sets \u00d7 10 reps each side (Keep lower back pressed to floor) [Rest: 30 sec]\n4. Bird Dog: 5 sets \u00d7 10 reps each side (Extend opposite arm and leg, hold 2s) [Rest: 30 sec]\n5. Glute Bridge: 5 sets \u00d7 15 reps (Squeeze glutes at top, hold 2s) [Rest: 30 sec]\n6. Pallof Press: 5 sets \u00d7 10 reps each side (Band at chest height, press and hold, resist rotation) [Rest: 30 sec]\n\n[Duration: ~45 min]\n[Exercises \u00b7 plank 5x45-60 sec rest 30 sec \u00b7 sidePlank 3x30 sec side rest 15 sec \u00b7 deadBug 5x10 side rest 30 sec \u00b7 birdDog 5x10 side rest 30 sec \u00b7 gluteBridge 5x15 rest 30 sec \u00b7 pallofPress 5x10 side rest 30 sec]\n\n[Weekly Plan - Recovery \u00b7 type:core-stability]"
-    },
     {
       "id": 143390149,
       "date": "2026-10-30",
@@ -1498,7 +1484,8 @@
       "duration_formatted": "2h4m",
       "workout_summary": "15m @240W | 6\u00d714m @280W / 10s rec | 14m @280W | 10m @220W",
       "has_terrain": false,
-      "start_time": "09:00"
+      "start_time": "09:00",
+      "description": "Warmup\n- 0^ Hey Pedromfsilva7! Endurance and sprints await 15m ramp 45-75% 85rpm\n\nMain Set\n6x\n- Endurance 88rpm 14m 65-75% 88rpm\n- Sprint 110rpm 10s 150% 110rpm\n\nRecovery\n- Endurance 88rpm 14m 65-75% 88rpm\n\nCooldown\n- 0^ Awesome job, spin easy now 10m ramp 65-45%\n\n[Weekly Plan - Build \u00b7 type:enduranceWithSprints]"
     },
     {
       "id": 143390264,
@@ -1962,15 +1949,29 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description_preview": "Lower Body Strength\nLeg strength for cycling power and running economy\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]"
+    },
+    {
+      "id": 145616272,
+      "date": "2026-12-11",
+      "name": "IntervalCoach - Steady Endurance",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 83,
+      "duration_hours": 1.63,
+      "duration_formatted": "1h37m50s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hey Pedromfsilva7! A steady endurance ride awaits 13m ramp 45-80% 85rpm\nMain Set"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 31,
+    "attempted": 32,
     "success": 17,
     "patternA": 16,
     "patternB": 1,
-    "bail_no_workout_doc": 12,
-    "bail_no_match": 14
+    "bail_no_workout_doc": 11,
+    "bail_no_match": 15
   },
   "weekly_summary": {
     "total_training_hours": 0.0,
