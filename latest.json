@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-31T07:32:52.906188",
+    "last_updated": "2026-10-31T13:53:53.415109",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 36.3
+        "value": 44.0
       }
     },
     "signal_summary": {
@@ -169,10 +169,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 47.85,
-      "atl": 11.57,
-      "tsb": 36.28,
-      "ramp_rate": -6.4,
+      "ctl": 45.92,
+      "atl": 1.87,
+      "tsb": 44.05,
+      "ramp_rate": -8.33,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -580,7 +580,7 @@
     "p_max": 1143,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-31T07:32:52.905085",
+    "calculation_timestamp": "2026-10-31T13:53:53.414512",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
@@ -1153,18 +1153,18 @@
   ],
   "planned_workouts": [
     {
-      "id": 143390176,
+      "id": 150168819,
       "date": "2026-10-31",
-      "name": "IntervalCoach - Endurance with Pickups",
+      "name": "IntervalCoach - 5x10 Endurance Pickups",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 85,
-      "duration_hours": 1.79,
-      "duration_formatted": "1h47m30s",
-      "workout_summary": "15m @240W | 5\u00d712m @280W / 1m30s rec | 15m @280W | 10m @220W",
+      "planned_tss": 65,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": "11m @250W | 4\u00d710m @296W / 1m30s rec | 10m @296W | 8m @226W",
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- 0^ Hey Pedromfsilva7! Endurance with pickups today 15m ramp 45-75% 85rpm\n\nMain Set\n5x\n- Endurance 88rpm 12m 65-75% 88rpm\n- Pickup 92rpm 90s 76-82% 92rpm\n\nRecovery\n- Endurance 88rpm 15m 65-75% 88rpm\n\nCooldown\n- 0^ Nice work, let's recover and spin 10m ramp 65-45%\n\n[Weekly Plan - Recovery \u00b7 type:enduranceWithPickups]"
+      "description": "Warmup\n- 11m ramp 45-80% 85rpm\n\nMain Set\n4x\n- Endurance 88rpm 10m 68-80% 88rpm\n- Pickup 92rpm 90s 80% 92rpm\n\nRecovery\n- Endurance 88rpm 10m 68-80% 88rpm\n\nCooldown\n- 8m ramp 68-45%\n\n[Weekly Plan - Base \u00b7 type:enduranceWithPickups]"
     },
     {
       "id": 143390204,
