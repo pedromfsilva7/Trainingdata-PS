@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-04T02:20:21.416948",
+    "last_updated": "2026-11-04T09:40:48.560420",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 29.1
+        "value": 40.7
       }
     },
     "signal_summary": {
@@ -169,10 +169,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 44.62,
-      "atl": 15.48,
-      "tsb": 29.14,
-      "ramp_rate": -4.7,
+      "ctl": 41.75,
+      "atl": 1.06,
+      "tsb": 40.69,
+      "ramp_rate": -7.57,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -550,7 +550,7 @@
     "p_max": 1139,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-04T02:20:21.415979",
+    "calculation_timestamp": "2026-11-04T09:40:48.559327",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
@@ -1018,18 +1018,18 @@
   ],
   "planned_workouts": [
     {
-      "id": 143390228,
+      "id": 151817056,
       "date": "2026-11-04",
-      "name": "IntervalCoach - Endurance with Pickups",
+      "name": "IntervalCoach - Endurance Strength",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 129,
-      "duration_hours": 2.5,
-      "duration_formatted": "2h30m9s",
-      "workout_summary": "13m @240W | 7\u00d76m38s @280W / 27s rec | 53s @280W | 4m25s @304W | 4m25s @308W | 4m25s @312W | 4m25s @320W | 4m25s @324W | 4m25s @328W | 7\u00d76m38s @280W / 27s rec | 1m46s @280W | 8m50s @220W",
+      "planned_tss": 131,
+      "duration_hours": 2.38,
+      "duration_formatted": "2h23m",
+      "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- 0^ Hey Pedromfsilva7! Progressive tempo awaits 13m ramp 45-75% 85rpm\n\nMain Set\n7x\n- Endurance 85rpm 398s 65-75% 85rpm\n- Pickup 95rpm 27s 86-94% 95rpm\n\nRecovery\n- Endurance 85rpm 53s 65-75% 85rpm\n- Build 1 88rpm 265s 76% 88rpm\n- Build 2 89rpm 265s 77% 89rpm\n- Build 3 90rpm 265s 78% 90rpm\n- Build 4 90rpm 265s 80% 90rpm\n- Build 5 91rpm 265s 81% 91rpm\n- Build 6 92rpm 265s 82% 92rpm\n\n7x\n- Endurance 85rpm 398s 65-75% 85rpm\n- Pickup 95rpm 27s 86-94% 95rpm\n\nRecovery\n- Endurance 85rpm 106s 65-75% 85rpm\n\nCooldown\n- 0^ Fantastic work, enjoy the recovery spin 530s ramp 65-45%\n\n[Weekly Plan - Build \u00b7 type:tempoProgressive]"
+      "description": "Warmup\n- 15m ramp 45-80% 85rpm\n\nMain Set\n- Endurance 88rpm 45m 68-80% 88rpm\n\n3x\n- Strength 1 (low cadence) 60rpm 3m 82% 60rpm\n- Threshold 92rpm 2m 92-98% 92rpm\n- Recovery 3m 55%\n\nMain Set\n- Strength 4 (low cadence) 60rpm 3m 82% 60rpm\n- Threshold 4 92rpm 2m 92-98% 92rpm\n- Cruise 88rpm 44m 68-80% 88rpm\n\nCooldown\n- 10m ramp 68-45%\n\n[Weekly Plan - Base \u00b7 type:enduranceWithStrength]"
     },
     {
       "id": 143390239,
@@ -1611,11 +1611,11 @@
   ],
   "workout_summary_stats": {
     "attempted": 32,
-    "success": 16,
-    "patternA": 15,
+    "success": 15,
+    "patternA": 14,
     "patternB": 1,
     "bail_no_workout_doc": 11,
-    "bail_no_match": 16
+    "bail_no_match": 17
   },
   "weekly_summary": {
     "total_training_hours": 0.0,
