@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-07T06:23:28.669041",
+    "last_updated": "2026-11-07T13:25:08.215224",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 28.9
+        "value": 38.2
       }
     },
     "signal_summary": {
@@ -169,10 +169,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 41.17,
-      "atl": 12.23,
-      "tsb": 28.94,
-      "ramp_rate": -4.75,
+      "ctl": 38.87,
+      "atl": 0.69,
+      "tsb": 38.18,
+      "ramp_rate": -7.05,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -456,7 +456,7 @@
     "p_max": 1135,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-07T06:23:28.667947",
+    "calculation_timestamp": "2026-11-07T13:25:08.214593",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
@@ -768,18 +768,18 @@
   ],
   "planned_workouts": [
     {
-      "id": 143390264,
+      "id": 152820080,
       "date": "2026-11-07",
-      "name": "IntervalCoach - Endurance + Tempo Pushes",
+      "name": "IntervalCoach - Progressive Aerobic",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 106,
-      "duration_hours": 2.13,
-      "duration_formatted": "2h8m",
-      "workout_summary": "15m @240W | 5\u00d713m @280W / 5m rec | 13m @280W | 10m @220W",
+      "planned_tss": 101,
+      "duration_hours": 1.97,
+      "duration_formatted": "1h58m",
+      "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- 0^ Hey Pedromfsilva7! Endurance day with tempo pushes 15m ramp 45-75% 85rpm\n\nMain Set\n5x\n- Endurance 88rpm 13m 65-75% 88rpm\n- Tempo 90rpm 5m 76-82% 90rpm\n\nRecovery\n- Endurance 88rpm 13m 65-75% 88rpm\n\nCooldown\n- 0^ Awesome ride, Pedromfsilva7! Recover well 10m ramp 65-45%\n\n[Weekly Plan - Build \u00b7 type:enduranceWithTempo]"
+      "description": "Warmup\n- 15m ramp 45-80% 85rpm\n\nMain Set\n- Low 85rpm 31m 68% 85rpm\n- Mid 88rpm 31m 73% 88rpm\n- Upper 90rpm 31m 78% 90rpm\n\nCooldown\n- 10m ramp 68-45%\n\n[Weekly Plan - Base \u00b7 type:enduranceProgressive]"
     },
     {
       "id": 143390266,
@@ -1360,11 +1360,11 @@
   ],
   "workout_summary_stats": {
     "attempted": 32,
-    "success": 16,
-    "patternA": 14,
+    "success": 15,
+    "patternA": 13,
     "patternB": 2,
     "bail_no_workout_doc": 11,
-    "bail_no_match": 16
+    "bail_no_match": 17
   },
   "weekly_summary": {
     "total_training_hours": 0.0,
