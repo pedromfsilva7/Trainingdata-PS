@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-22T22:20:18.072099",
+    "last_updated": "2026-11-23T02:58:01.058466",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 27.1
+        "value": 11.2
       }
     },
     "signal_summary": {
@@ -156,7 +156,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-10-18",
-    "age_days": 35,
+    "age_days": 36,
     "total_months": 33,
     "history_confidence": "high"
   },
@@ -169,17 +169,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 27.2,
-      "atl": 0.08,
-      "tsb": 27.12,
-      "ramp_rate": -4.93,
+      "ctl": 30.35,
+      "atl": 19.11,
+      "tsb": 11.24,
+      "ramp_rate": -1.03,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 367.5,
-      "w_prime": 31028,
+      "eftp": 367.2,
+      "w_prime": 30997,
       "w_prime_kj": 31.0,
-      "p_max": 1119,
+      "p_max": 1117,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -353,12 +353,12 @@
       "power_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-10-26",
-          "end": "2026-11-22"
+          "start": "2026-10-27",
+          "end": "2026-11-23"
         },
         "previous_window": {
-          "start": "2026-09-28",
-          "end": "2026-10-25"
+          "start": "2026-09-29",
+          "end": "2026-10-26"
         },
         "anchors": null,
         "rotation_index": null,
@@ -367,12 +367,12 @@
       "hr_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-10-26",
-          "end": "2026-11-22"
+          "start": "2026-10-27",
+          "end": "2026-11-23"
         },
         "previous_window": {
-          "start": "2026-09-28",
-          "end": "2026-10-25"
+          "start": "2026-09-29",
+          "end": "2026-10-26"
         },
         "anchors": null,
         "rotation_index": null,
@@ -382,8 +382,8 @@
         "note": "No sustainability data available.",
         "window": {
           "days": 42,
-          "start": "2026-10-12",
-          "end": "2026-11-22"
+          "start": "2026-10-13",
+          "end": "2026-11-23"
         }
       },
       "dfa_a1_profile": null
@@ -394,13 +394,13 @@
       "completed_days": 0,
       "matched_days": 0,
       "planned_dates": [
-        "2026-11-16",
         "2026-11-17",
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
         "2026-11-21",
-        "2026-11-22"
+        "2026-11-22",
+        "2026-11-23"
       ],
       "completed_dates": []
     },
@@ -417,13 +417,13 @@
         },
         "stream_2": {
           "planned_tss_delta": null,
-          "hard_sessions_planned": 1,
+          "hard_sessions_planned": 4,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 1,
+          "current_week_hard_days_total": 4,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 1.0,
-          "plan_coverage_next_week": 4.0
+          "plan_coverage_current_week": 4.0,
+          "plan_coverage_next_week": 6.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -450,13 +450,13 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 367.5,
-    "w_prime": 31028,
+    "eftp": 367.2,
+    "w_prime": 30997,
     "w_prime_kj": 31.0,
-    "p_max": 1119,
+    "p_max": 1117,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-22T22:20:18.071512",
+    "calculation_timestamp": "2026-11-23T02:58:01.057832",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
@@ -471,48 +471,6 @@
   },
   "recent_activities": [],
   "wellness_data": [
-    {
-      "date": "2026-11-16",
-      "weight_kg": null,
-      "display": {
-        "weight": null
-      },
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
-      "spO2": null,
-      "blood_glucose": null,
-      "systolic": null,
-      "diastolic": null,
-      "baevsky_si": null,
-      "lactate": null,
-      "respiration": null,
-      "body_fat_pct": null,
-      "abdomen_cm": null,
-      "steps": null,
-      "hydration_volume_l": null,
-      "kcal_consumed": null,
-      "carbohydrates_g": null,
-      "protein_g": null,
-      "fat_g": null,
-      "menstrual_phase": null,
-      "menstrual_phase_predicted": null,
-      "readiness": null
-    },
     {
       "date": "2026-11-17",
       "weight_kg": null,
@@ -764,23 +722,51 @@
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
       "readiness": null
+    },
+    {
+      "date": "2026-11-23",
+      "weight_kg": null,
+      "display": {
+        "weight": null
+      },
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null,
+      "fatigue": null,
+      "soreness": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "hydration": null,
+      "spO2": null,
+      "blood_glucose": null,
+      "systolic": null,
+      "diastolic": null,
+      "baevsky_si": null,
+      "lactate": null,
+      "respiration": null,
+      "body_fat_pct": null,
+      "abdomen_cm": null,
+      "steps": null,
+      "hydration_volume_l": null,
+      "kcal_consumed": null,
+      "carbohydrates_g": null,
+      "protein_g": null,
+      "fat_g": null,
+      "menstrual_phase": null,
+      "menstrual_phase_predicted": null,
+      "readiness": null
     }
   ],
   "planned_workouts": [
-    {
-      "id": 143390561,
-      "date": "2026-11-22",
-      "name": "IntervalCoach - Sweet Spot Intervals",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 165,
-      "duration_hours": 2.95,
-      "duration_formatted": "2h56m58s",
-      "workout_summary": "9m40s @240W | 48s @364W | 24s @220W | 48s @364W | 24s @220W | 8\u00d76m2s @280W / 24s rec | 4m50s @280W | 7\u00d74m1s @364W / 1m37s rec | 4m1s @364W | 8\u00d76m2s @280W / 24s rec | 5m38s @280W | 8m3s @220W",
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- 0^ Hey Pedromfsilva7! Sweet spot intervals are here 580s ramp 45-75% 85rpm\n- Primer 1 48s 91% 90rpm\n- Primer recovery 24s 55%\n- Primer 2 48s 91% 90rpm\n- Primer recovery 24s 55%\n\nMain Set\n8x\n- Endurance 85rpm 362s 65-75% 85rpm\n- Pickup 95rpm 24s 86-94% 95rpm\n\nRecovery\n- Endurance 85rpm 290s 65-75% 85rpm\n\n7x\n- SS Interval 90rpm 241s 88-94% 90rpm\n- Recovery 97s 55%\n\nMain Set\n- SS Interval 90rpm 241s 88-94% 90rpm\n\n8x\n- Endurance 85rpm 362s 65-75% 85rpm\n- Pickup 95rpm 24s 86-94% 95rpm\n\nRecovery\n- Endurance 85rpm 338s 65-75% 85rpm\n\nCooldown\n- 0^ Awesome work, Pedromfsilva7! Recover well 483s ramp 65-45%\n\n[Weekly Plan - Build \u00b7 type:ssIntervals]"
-    },
     {
       "id": 158927349,
       "date": "2026-11-23",
@@ -849,7 +835,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description_preview": "Lower Body Strength\nLeg strength for cycling power and running economy\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]"
+      "description": "Lower Body Strength\n\nLeg strength for cycling power and running economy\n\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]\n2. Romanian Deadlift: 3 sets \u00d7 10 reps (Hinge at hips, slight knee bend) [Rest: 60 sec]\n3. Walking Lunges: 3 sets \u00d7 10 reps each leg (Keep torso upright, knee tracks over toe) [Rest: 45 sec]\n4. Step-ups: 3 sets \u00d7 10 reps each leg (Use bench or box, drive through heel) [Rest: 45 sec]\n5. Calf Raises: 3 sets \u00d7 15 reps (Full range of motion, hold at top) [Rest: 30 sec]\n6. Single Leg Glute Bridge: 3 sets \u00d7 10 reps each leg (Keep hips level throughout) [Rest: 30 sec]\n\nBuild phase: increase weight, lower reps (6-10) for strength gains.\n\n[Duration: ~45 min]\n\n[Weekly Plan - Build \u00b7 type:lower-body-strength]"
     },
     {
       "id": 143390602,
@@ -1220,14 +1206,28 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description_preview": "Warmup\n- 11m ramp 45-80% 85rpm\nMain Set"
+    },
+    {
+      "id": 156002050,
+      "date": "2027-01-04",
+      "name": "IntervalCoach - Full Body Functional",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 9,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Full Body Functional\nBalanced full-body workout for overall athletic development\n1. Squat: 3 sets \u00d7 12 reps (Bodyweight or goblet squat) [Rest: 60 sec]"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 23,
-    "success": 11,
-    "patternA": 10,
+    "attempted": 22,
+    "success": 10,
+    "patternA": 9,
     "patternB": 1,
-    "bail_no_workout_doc": 10,
+    "bail_no_workout_doc": 11,
     "bail_no_match": 12
   },
   "weekly_summary": {
