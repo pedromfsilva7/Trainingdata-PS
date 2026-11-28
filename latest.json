@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-27T23:31:04.292561",
+    "last_updated": "2026-11-28T04:58:32.347703",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 24.1
+        "value": 23.6
       }
     },
     "signal_summary": {
@@ -156,7 +156,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-10-18",
-    "age_days": 40,
+    "age_days": 41,
     "total_months": 33,
     "history_confidence": "high"
   },
@@ -169,17 +169,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 24.14,
-      "atl": 0.04,
-      "tsb": 24.1,
-      "ramp_rate": -4.38,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ctl": 23.58,
+      "atl": 0.03,
+      "tsb": 23.55,
+      "ramp_rate": -4.28,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 365.7,
-      "w_prime": 30873,
-      "w_prime_kj": 30.9,
-      "p_max": 1113,
+      "eftp": 365.3,
+      "w_prime": 30842,
+      "w_prime_kj": 30.8,
+      "p_max": 1112,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -353,12 +353,12 @@
       "power_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-10-31",
-          "end": "2026-11-27"
+          "start": "2026-11-01",
+          "end": "2026-11-28"
         },
         "previous_window": {
-          "start": "2026-10-03",
-          "end": "2026-10-30"
+          "start": "2026-10-04",
+          "end": "2026-10-31"
         },
         "anchors": null,
         "rotation_index": null,
@@ -367,12 +367,12 @@
       "hr_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-10-31",
-          "end": "2026-11-27"
+          "start": "2026-11-01",
+          "end": "2026-11-28"
         },
         "previous_window": {
-          "start": "2026-10-03",
-          "end": "2026-10-30"
+          "start": "2026-10-04",
+          "end": "2026-10-31"
         },
         "anchors": null,
         "rotation_index": null,
@@ -382,8 +382,8 @@
         "note": "No sustainability data available.",
         "window": {
           "days": 42,
-          "start": "2026-10-17",
-          "end": "2026-11-27"
+          "start": "2026-10-18",
+          "end": "2026-11-28"
         }
       },
       "dfa_a1_profile": null
@@ -394,11 +394,11 @@
       "completed_days": 0,
       "matched_days": 0,
       "planned_dates": [
-        "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-28"
       ],
       "completed_dates": []
     },
@@ -448,13 +448,13 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 365.7,
-    "w_prime": 30873,
-    "w_prime_kj": 30.9,
-    "p_max": 1113,
+    "eftp": 365.3,
+    "w_prime": 30842,
+    "w_prime_kj": 30.8,
+    "p_max": 1112,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-27T23:31:04.291790",
+    "calculation_timestamp": "2026-11-28T04:58:32.346524",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
@@ -469,48 +469,6 @@
   },
   "recent_activities": [],
   "wellness_data": [
-    {
-      "date": "2026-11-21",
-      "weight_kg": null,
-      "display": {
-        "weight": null
-      },
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
-      "spO2": null,
-      "blood_glucose": null,
-      "systolic": null,
-      "diastolic": null,
-      "baevsky_si": null,
-      "lactate": null,
-      "respiration": null,
-      "body_fat_pct": null,
-      "abdomen_cm": null,
-      "steps": null,
-      "hydration_volume_l": null,
-      "kcal_consumed": null,
-      "carbohydrates_g": null,
-      "protein_g": null,
-      "fat_g": null,
-      "menstrual_phase": null,
-      "menstrual_phase_predicted": null,
-      "readiness": null
-    },
     {
       "date": "2026-11-22",
       "weight_kg": null,
@@ -762,6 +720,48 @@
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
       "readiness": null
+    },
+    {
+      "date": "2026-11-28",
+      "weight_kg": null,
+      "display": {
+        "weight": null
+      },
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null,
+      "fatigue": null,
+      "soreness": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "hydration": null,
+      "spO2": null,
+      "blood_glucose": null,
+      "systolic": null,
+      "diastolic": null,
+      "baevsky_si": null,
+      "lactate": null,
+      "respiration": null,
+      "body_fat_pct": null,
+      "abdomen_cm": null,
+      "steps": null,
+      "hydration_volume_l": null,
+      "kcal_consumed": null,
+      "carbohydrates_g": null,
+      "protein_g": null,
+      "fat_g": null,
+      "menstrual_phase": null,
+      "menstrual_phase_predicted": null,
+      "readiness": null
     }
   ],
   "planned_workouts": [
@@ -847,7 +847,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description_preview": "Warmup\n- Hey Pedromfsilva7! Progressive aerobic session awaits 9m ramp 45-75% 85rpm\nMain Set"
+      "description": "Warmup\n- Hey Pedromfsilva7! Progressive aerobic session awaits 9m ramp 45-75% 85rpm\n\nMain Set\n- Low 85rpm 21m 65% 85rpm\n- Mid 88rpm 21m 69% 88rpm\n- Upper 90rpm 21m 73% 90rpm\n\nCooldown\n- Fantastic work, enjoy the cool down 6m ramp 65-45%\n\n[Weekly Plan - Build \u00b7 type:enduranceProgressive]"
     },
     {
       "id": 143390696,
@@ -1218,12 +1218,25 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description_preview": "Warmup\n- 11m ramp 45-80% 85rpm\nMain Set"
+    },
+    {
+      "id": 156002309,
+      "date": "2027-01-09",
+      "name": "IntervalCoach - Cadence Endurance",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 54,
+      "duration_hours": 1.06,
+      "duration_formatted": "1h3m19s",
+      "workout_summary": "9m17s @250W | 4\u00d75m4s @296W / 5m4s rec | 6m45s @296W | 6m45s @226W",
+      "has_terrain": false,
+      "start_time": "09:00"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 22,
-    "success": 9,
-    "patternA": 8,
+    "attempted": 23,
+    "success": 10,
+    "patternA": 9,
     "patternB": 1,
     "bail_no_workout_doc": 11,
     "bail_no_match": 13
